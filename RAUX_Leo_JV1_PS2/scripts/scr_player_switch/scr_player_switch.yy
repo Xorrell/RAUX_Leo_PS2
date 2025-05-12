@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_player_switch",
+  "isCompatibility":false,
+  "isDnD":true,
+  "name":"scr_player_switch",
+  "parent":{
+    "name":"Players",
+    "path":"folders/Scripts/Players.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
