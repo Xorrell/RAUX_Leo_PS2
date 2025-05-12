@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"ceiling_bump",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.1711111,
+  "name":"ceiling_bump",
+  "parent":{
+    "name":"Player0",
+    "path":"folders/Sounds/Player0.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"ceiling_bump.wav",
+  "type":0,
+  "volume":1.0,
+}

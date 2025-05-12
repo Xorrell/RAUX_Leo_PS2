@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player0",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_sligma",
+  "eventList":[],
   "managed":true,
-  "name":"obj_player0",
+  "name":"obj_sligma",
   "overriddenProperties":[],
   "parent":{
-    "name":"Players",
-    "path":"folders/Objects/Players.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Enemies.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"deb_player0",
-    "path":"sprites/deb_player0/deb_player0.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
