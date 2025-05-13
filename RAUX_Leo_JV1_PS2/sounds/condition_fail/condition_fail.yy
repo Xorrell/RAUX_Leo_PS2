@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"grapple_hitbars",
+  "%Name":"condition_fail",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
-  "name":"grapple_hitbars",
+  "duration":0.41115648,
+  "name":"condition_fail",
   "parent":{
-    "name":"Items",
-    "path":"folders/Sounds/Items.yy",
+    "name":"SFX",
+    "path":"folders/Sounds/SFX.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"grapple_hitbars.wav",
+  "soundFile":"condition_fail.wav",
   "type":0,
   "volume":1.0,
 }

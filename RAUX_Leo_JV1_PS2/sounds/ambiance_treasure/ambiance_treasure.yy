@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"grapple_hitbars",
+  "%Name":"ambiance_treasure",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
-  "name":"grapple_hitbars",
+  "duration":1.1436055,
+  "name":"ambiance_treasure",
   "parent":{
-    "name":"Items",
-    "path":"folders/Sounds/Items.yy",
+    "name":"Ambiance",
+    "path":"folders/Sounds/Ambiance.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"grapple_hitbars.wav",
+  "soundFile":"ambiance_treasure.wav",
   "type":0,
   "volume":1.0,
 }

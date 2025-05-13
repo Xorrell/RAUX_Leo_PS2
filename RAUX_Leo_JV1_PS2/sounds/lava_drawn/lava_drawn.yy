@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"grapple_hitbars",
+  "%Name":"lava_drawn",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,17 +9,17 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.0,
-  "name":"grapple_hitbars",
+  "duration":0.9007256,
+  "name":"lava_drawn",
   "parent":{
-    "name":"Items",
-    "path":"folders/Sounds/Items.yy",
+    "name":"Traps",
+    "path":"folders/Sounds/Traps.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"grapple_hitbars.wav",
+  "soundFile":"lava_drawn.wav",
   "type":0,
   "volume":1.0,
 }
