@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_player0",
+  "%Name":"obj_player1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_player0",
+  "name":"obj_player1",
   "overriddenProperties":[],
   "parent":{
     "name":"Players",
@@ -30,17 +30,13 @@
   "physicsStartAwake":true,
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"fallspeed","filters":[],"listItems":[],"multiselect":false,"name":"fallspeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"state","filters":[],"listItems":[
-        "\"Idle\"",
-        "\"Falling\"",
-      ],"multiselect":false,"name":"state","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Idle\"","varType":6,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"deb_player0",
-    "path":"sprites/deb_player0/deb_player0.yy",
+    "name":"deb_player1",
+    "path":"sprites/deb_player1/deb_player1.yy",
   },
   "spriteMaskId":null,
   "visible":true,
