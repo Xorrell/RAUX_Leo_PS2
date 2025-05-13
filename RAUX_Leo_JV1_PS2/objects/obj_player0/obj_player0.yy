@@ -3,6 +3,7 @@
   "%Name":"obj_player0",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":68,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_player0",
@@ -33,7 +34,11 @@
     {"$GMObjectProperty":"v1","%Name":"state","filters":[],"listItems":[
         "\"Idle\"",
         "\"Falling\"",
+        "\"Walk\"",
+        "\"Grapple\"",
+        "\"Jump\"",
       ],"multiselect":false,"name":"state","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Idle\"","varType":6,},
+    {"$GMObjectProperty":"v1","%Name":"hor_walk","filters":[],"listItems":[],"multiselect":false,"name":"hor_walk","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
