@@ -33,3 +33,16 @@ if(state == "Falling"){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "var_1" "fallspeed"
 	y += fallspeed;
 	fallspeed += 0.1;}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 2FC1C8C4
+/// @DnDArgument : "var" "state"
+/// @DnDArgument : "value" ""Walking""
+if(state == "Walking"){	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 31A89C50
+	/// @DnDParent : 2FC1C8C4
+	/// @DnDArgument : "script" "scr_players_walk"
+	/// @DnDSaveInfo : "script" "scr_players_walk"
+	script_execute(scr_players_walk);}

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_player_switch",
+  "%Name":"scr_players_turn",
   "isCompatibility":false,
   "isDnD":true,
-  "name":"scr_player_switch",
+  "name":"scr_players_turn",
   "parent":{
     "name":"Players",
     "path":"folders/Scripts/Players.yy",
