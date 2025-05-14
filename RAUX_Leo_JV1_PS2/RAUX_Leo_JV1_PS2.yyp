@@ -72,6 +72,7 @@
     {"id":{"name":"obj_treasure","path":"objects/obj_treasure/obj_treasure.yy",},},
     {"id":{"name":"par_lava","path":"particles/par_lava/par_lava.yy",},},
     {"id":{"name":"TEST","path":"rooms/TEST/TEST.yy",},},
+    {"id":{"name":"scr_players_jump","path":"scripts/scr_players_jump/scr_players_jump.yy",},},
     {"id":{"name":"scr_players_turn","path":"scripts/scr_players_turn/scr_players_turn.yy",},},
     {"id":{"name":"scr_players_walk","path":"scripts/scr_players_walk/scr_players_walk.yy",},},
     {"id":{"name":"ambiance_lava","path":"sounds/ambiance_lava/ambiance_lava.yy",},},
