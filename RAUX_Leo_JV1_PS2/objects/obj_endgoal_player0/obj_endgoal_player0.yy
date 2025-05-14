@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gravity",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_col_ground","path":"objects/obj_col_ground/obj_col_ground.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_endgoal_player0",
+  "eventList":[],
   "managed":true,
-  "name":"obj_gravity",
+  "name":"obj_endgoal_player0",
   "overriddenProperties":[],
   "parent":{
-    "name":"DEBUG",
-    "path":"folders/Objects/DEBUG.yy",
+    "name":"Obstacles",
+    "path":"folders/Objects/Obstacles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"debug",
-    "path":"sprites/debug/debug.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

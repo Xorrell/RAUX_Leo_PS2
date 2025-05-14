@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gravity",
+  "%Name":"obj_lava",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_col_ground","path":"objects/obj_col_ground/obj_col_ground.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gravity",
+  "name":"obj_lava",
   "overriddenProperties":[],
   "parent":{
-    "name":"DEBUG",
-    "path":"folders/Objects/DEBUG.yy",
+    "name":"Traps",
+    "path":"folders/Objects/Traps.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"debug",
-    "path":"sprites/debug/debug.yy",
+    "name":"spr_lava_top",
+    "path":"sprites/spr_lava_top/spr_lava_top.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
