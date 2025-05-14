@@ -1,17 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_treasure",
-  "eventList":[],
+  "%Name":"obj_prnt_treasure",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_treasure",
+  "name":"obj_prnt_treasure",
   "overriddenProperties":[],
   "parent":{
     "name":"Items",
     "path":"folders/Objects/Items.yy",
   },
   "parentObjectId":{
-    "name":"obj_prnt_treasure",
-    "path":"objects/obj_prnt_treasure/obj_prnt_treasure.yy",
+    "name":"obj_gravity",
+    "path":"objects/obj_gravity/obj_gravity.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -32,10 +35,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"deb_treasure",
-    "path":"sprites/deb_treasure/deb_treasure.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

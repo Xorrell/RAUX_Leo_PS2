@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_treasure",
+  "%Name":"obj_treasure_bad",
   "eventList":[],
   "managed":true,
-  "name":"obj_treasure",
+  "name":"obj_treasure_bad",
   "overriddenProperties":[],
   "parent":{
     "name":"Items",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"deb_treasure",
-    "path":"sprites/deb_treasure/deb_treasure.yy",
+    "name":"deb_treasure_bad",
+    "path":"sprites/deb_treasure_bad/deb_treasure_bad.yy",
   },
   "spriteMaskId":null,
   "visible":true,
