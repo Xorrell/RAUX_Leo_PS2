@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bars",
-  "eventList":[],
+  "%Name":"obj_transition",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_bars",
+  "name":"obj_transition",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obstacles",
-    "path":"folders/Objects/Obstacles.yy",
+    "name":"GUI",
+    "path":"folders/Objects/GUI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_bars",
-    "path":"sprites/spr_bars/spr_bars.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

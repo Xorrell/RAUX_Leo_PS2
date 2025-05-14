@@ -7,7 +7,7 @@
 /// @DnDArgument : "expr_2" ""Idle""
 /// @DnDArgument : "var" "self.y"
 /// @DnDArgument : "var_1" "self.fallspeed"
-/// @DnDArgument : "var_2" "state"
+/// @DnDArgument : "var_2" "self.state"
 self.y += -self.fallspeed;
 self.fallspeed = 0;
-state = "Idle";
+self.state = "Idle";

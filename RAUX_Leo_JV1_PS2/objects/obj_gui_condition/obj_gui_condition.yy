@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bars",
-  "eventList":[],
+  "%Name":"obj_gui_condition",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_bars",
+  "name":"obj_gui_condition",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obstacles",
-    "path":"folders/Objects/Obstacles.yy",
+    "name":"GUI",
+    "path":"folders/Objects/GUI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_bars",
-    "path":"sprites/spr_bars/spr_bars.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

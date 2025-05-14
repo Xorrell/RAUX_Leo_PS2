@@ -1,0 +1,22 @@
+/// @DnDAction : YoYo Games.Collisions.If_Object_At
+/// @DnDVersion : 1.1
+/// @DnDHash : 09DBF7BF
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "object" "obj_col_ground"
+/// @DnDArgument : "not" "1"
+/// @DnDSaveInfo : "object" "obj_col_ground"
+var l09DBF7BF_0 = instance_place(x + 0, y + 1, [obj_col_ground]);if (!(l09DBF7BF_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 34BE8B17
+	/// @DnDInput : 2
+	/// @DnDParent : 09DBF7BF
+	/// @DnDArgument : "expr" "fallspeed"
+	/// @DnDArgument : "expr_relative" "1"
+	/// @DnDArgument : "expr_1" "0.1"
+	/// @DnDArgument : "expr_relative_1" "1"
+	/// @DnDArgument : "var" "y"
+	/// @DnDArgument : "var_1" "fallspeed"
+	y += fallspeed;
+	fallspeed += 0.1;}
