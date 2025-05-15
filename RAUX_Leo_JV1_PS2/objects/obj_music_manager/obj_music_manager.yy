@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_exit_player0",
+  "%Name":"obj_music_manager",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player0","path":"objects/obj_player0/obj_player0.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_exit_player0",
+  "name":"obj_music_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obstacles",
-    "path":"folders/Objects/Obstacles.yy",
+    "name":"DEBUG",
+    "path":"folders/Objects/DEBUG.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"deb_exit_player0",
-    "path":"sprites/deb_exit_player0/deb_exit_player0.yy",
+    "name":"debug",
+    "path":"sprites/debug/debug.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

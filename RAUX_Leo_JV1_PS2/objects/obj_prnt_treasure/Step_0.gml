@@ -26,3 +26,16 @@ if(carried == false){	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 		/// @DnDArgument : "var_1" "fallspeed"
 		y += fallspeed;
 		fallspeed += 0.2;}}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 0F683C44
+/// @DnDArgument : "var" "carried"
+/// @DnDArgument : "value" "true"
+if(carried == true){	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 46C7DFB8
+	/// @DnDParent : 0F683C44
+	/// @DnDArgument : "script" "scr_carry"
+	/// @DnDSaveInfo : "script" "scr_carry"
+	script_execute(scr_carry);}

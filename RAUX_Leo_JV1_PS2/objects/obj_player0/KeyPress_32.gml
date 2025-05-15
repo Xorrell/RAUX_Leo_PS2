@@ -22,4 +22,13 @@ var l53AF1F15_0 = instance_place(x + 0, y + 1, [obj_col_ground, obj_col_ground_b
 		/// @DnDParent : 698C7BB9
 		/// @DnDArgument : "script" "scr_players_jump"
 		/// @DnDSaveInfo : "script" "scr_players_jump"
-		script_execute(scr_players_jump);}}
+		script_execute(scr_players_jump);
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 57C0C5CE
+		/// @DnDParent : 698C7BB9
+		/// @DnDArgument : "soundid" "player0_jump"
+		/// @DnDArgument : "gain" "0.8"
+		/// @DnDSaveInfo : "soundid" "player0_jump"
+		audio_play_sound(player0_jump, 0, 0, 0.8, undefined, 1.0);}}

@@ -1,3 +1,9 @@
+/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+/// @DnDVersion : 1
+/// @DnDHash : 08CB424E
+/// @DnDApplyTo : {obj_gui_arrowup}
+with(obj_gui_arrowup) image_alpha = 1;
+
 /// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 /// @DnDVersion : 1
 /// @DnDHash : 37E0BDA1
@@ -7,5 +13,6 @@ var l37E0BDA1_0;l37E0BDA1_0 = keyboard_check_pressed(ord("Z"));if (l37E0BDA1_0
 	/// @DnDHash : 19926E13
 	/// @DnDParent : 37E0BDA1
 	/// @DnDArgument : "soundid" "exit_reached"
+	/// @DnDArgument : "gain" "0.8"
 	/// @DnDSaveInfo : "soundid" "exit_reached"
-	audio_play_sound(exit_reached, 0, 0, 1.0, undefined, 1.0);}
+	audio_play_sound(exit_reached, 0, 0, 0.8, undefined, 1.0);}

@@ -60,7 +60,7 @@
     },
     "name":"deb_arrowup",
     "playback":1,
-    "playbackSpeed":0.75,
+    "playbackSpeed":0.85,
     "playbackSpeedType":0,
     "resourceType":"GMSequence",
     "resourceVersion":"2.0",
