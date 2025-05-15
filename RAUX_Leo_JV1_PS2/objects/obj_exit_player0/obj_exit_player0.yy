@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_endgoal_player0",
+  "%Name":"obj_exit_player0",
   "eventList":[],
   "managed":true,
-  "name":"obj_endgoal_player0",
+  "name":"obj_exit_player0",
   "overriddenProperties":[],
   "parent":{
     "name":"Obstacles",
@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"deb_exit_player0",
+    "path":"sprites/deb_exit_player0/deb_exit_player0.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

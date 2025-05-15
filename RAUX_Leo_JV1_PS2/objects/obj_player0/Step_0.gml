@@ -12,22 +12,71 @@ if(inventory == "None"){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	sprite_index = spr_player0__nopick_idle;
 	image_index = 0;}
 
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5985B0CF
+/// @DnDArgument : "var" "inventory"
+/// @DnDArgument : "value" ""Pickaxe""
+if(inventory == "Pickaxe"){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+	/// @DnDVersion : 1
+	/// @DnDHash : 1D1E892D
+	/// @DnDParent : 5985B0CF
+	/// @DnDArgument : "spriteind" "spr_player0_idle"
+	/// @DnDSaveInfo : "spriteind" "spr_player0_idle"
+	sprite_index = spr_player0_idle;
+	image_index = 0;}
+
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 6C4DB435
+/// @DnDInput : 2
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "1"
 /// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "target" ""
 /// @DnDArgument : "object" "obj_col_ground"
+/// @DnDArgument : "object_1" "obj_col_ground_bars"
 /// @DnDArgument : "not" "1"
 /// @DnDSaveInfo : "object" "obj_col_ground"
-var l6C4DB435_0 = instance_place(x + 0, y + 1, [obj_col_ground]);if (!(l6C4DB435_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDSaveInfo : "object_1" "obj_col_ground_bars"
+var l6C4DB435_0 = instance_place(x + 0, y + 0, [obj_col_ground, obj_col_ground_bars]);if (!(l6C4DB435_0 > 0)){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 77DD5D5E
 	/// @DnDParent : 6C4DB435
 	/// @DnDArgument : "expr" ""Falling""
 	/// @DnDArgument : "var" "state"
 	state = "Falling";}
+
+/// @DnDAction : YoYo Games.Collisions.If_Object_At
+/// @DnDVersion : 1.1
+/// @DnDHash : 31E23BC3
+/// @DnDInput : 2
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "target" ""
+/// @DnDArgument : "object" "obj_col_ground"
+/// @DnDArgument : "object_1" "obj_col_ground_bars"
+/// @DnDSaveInfo : "object" "obj_col_ground"
+/// @DnDSaveInfo : "object_1" "obj_col_ground_bars"
+var l31E23BC3_0 = instance_place(x + 0, y + 1, [obj_col_ground, obj_col_ground_bars]);if ((l31E23BC3_0 > 0)){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+	/// @DnDVersion : 1
+	/// @DnDHash : 38F93F38
+	/// @DnDParent : 31E23BC3
+	/// @DnDArgument : "key" "ord("S")"
+	var l38F93F38_0;l38F93F38_0 = keyboard_check(ord("S"));if (l38F93F38_0){	/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 091DE48F
+		/// @DnDParent : 38F93F38
+		/// @DnDArgument : "var" "obj_player_switch.controlled_p"
+		/// @DnDArgument : "value" "true"
+		if(obj_player_switch.controlled_p == true){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 7B86CAFD
+			/// @DnDParent : 091DE48F
+			/// @DnDArgument : "spriteind" "deb_player0_crouch"
+			/// @DnDSaveInfo : "spriteind" "deb_player0_crouch"
+			sprite_index = deb_player0_crouch;
+			image_index = 0;}}}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -41,12 +90,12 @@ if(state == "Falling"){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDParent : 7EF5AB79
 	/// @DnDArgument : "expr" "fallspeed"
 	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "expr_1" "0.1"
+	/// @DnDArgument : "expr_1" "0.2"
 	/// @DnDArgument : "expr_relative_1" "1"
 	/// @DnDArgument : "var" "y"
 	/// @DnDArgument : "var_1" "fallspeed"
 	y += fallspeed;
-	fallspeed += 0.1;}
+	fallspeed += 0.2;}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -104,3 +153,17 @@ if(state == "Jump"){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDArgument : "script" "scr_players_jump"
 		/// @DnDSaveInfo : "script" "scr_players_jump"
 		script_execute(scr_players_jump);}}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 1A2A1734
+/// @DnDArgument : "var" "fallspeed"
+/// @DnDArgument : "op" "2"
+/// @DnDArgument : "value" "3"
+if(fallspeed > 3){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 3CA1E9D6
+	/// @DnDParent : 1A2A1734
+	/// @DnDArgument : "expr" "3"
+	/// @DnDArgument : "var" "fallspeed"
+	fallspeed = 3;}
