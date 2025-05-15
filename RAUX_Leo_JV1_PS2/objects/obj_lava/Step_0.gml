@@ -10,10 +10,11 @@ var l41B19EEF_0 = instance_place(x + 0, y + -16, [obj_lava]);if ((l41B19EEF_0 >
 	/// @DnDVersion : 1
 	/// @DnDHash : 36E8906C
 	/// @DnDParent : 41B19EEF
+	/// @DnDArgument : "imageind_relative" "1"
 	/// @DnDArgument : "spriteind" "spr_lava_inner"
 	/// @DnDSaveInfo : "spriteind" "spr_lava_inner"
 	sprite_index = spr_lava_inner;
-	image_index = 0;}
+	image_index += 0;}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
