@@ -47,3 +47,23 @@ if(attackcharge > 100){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDParent : 008050DD
 	/// @DnDArgument : "var" "attackcharge"
 	attackcharge = 0;}
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6666B642
+/// @DnDArgument : "expr" "-1.2"
+/// @DnDArgument : "expr_relative" "1"
+/// @DnDArgument : "var" "attackcharge"
+attackcharge += -1.2;
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 40A96661
+/// @DnDArgument : "var" "attackcharge"
+/// @DnDArgument : "op" "1"
+if(attackcharge < 0){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 4670A7E2
+	/// @DnDParent : 40A96661
+	/// @DnDArgument : "var" "attackcharge"
+	attackcharge = 0;}

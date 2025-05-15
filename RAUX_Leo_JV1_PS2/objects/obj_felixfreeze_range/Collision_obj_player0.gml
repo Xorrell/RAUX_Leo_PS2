@@ -9,10 +9,10 @@ var l7E925689_0 = collision_point(x + 0, y + 0, obj_felixfreeze, true, 1);if((l
 	/// @DnDVersion : 1
 	/// @DnDHash : 5DBB0E0B
 	/// @DnDParent : 7E925689
-	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "expr" "2"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "obj_felixfreeze.attackcharge"
-	obj_felixfreeze.attackcharge += 1;
+	obj_felixfreeze.attackcharge += 2;
 
 	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 	/// @DnDVersion : 1
