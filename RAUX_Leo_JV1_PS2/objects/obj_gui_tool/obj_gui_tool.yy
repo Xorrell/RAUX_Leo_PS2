@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_col_ground",
-  "eventList":[],
+  "%Name":"obj_gui_tool",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_col_ground",
+  "name":"obj_gui_tool",
   "overriddenProperties":[],
   "parent":{
-    "name":"Collisions",
-    "path":"folders/Objects/Collisions.yy",
+    "name":"GUI",
+    "path":"folders/Objects/GUI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"deb_col_ground",
-    "path":"sprites/deb_col_ground/deb_col_ground.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

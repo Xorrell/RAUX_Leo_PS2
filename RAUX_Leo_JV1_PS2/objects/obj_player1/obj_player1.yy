@@ -40,6 +40,7 @@
         "\"Walk\"",
       ],"multiselect":false,"name":"state","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Idle\"","varType":6,},
     {"$GMObjectProperty":"v1","%Name":"hor_walk","filters":[],"listItems":[],"multiselect":false,"name":"hor_walk","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"thru_bars","filters":[],"listItems":[],"multiselect":false,"name":"thru_bars","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_col_ground",
+  "%Name":"obj_col_ground_bars",
   "eventList":[],
   "managed":true,
-  "name":"obj_col_ground",
+  "name":"obj_col_ground_bars",
   "overriddenProperties":[],
   "parent":{
     "name":"Collisions",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"deb_col_ground",
-    "path":"sprites/deb_col_ground/deb_col_ground.yy",
+    "name":"deb_col_ground_bars",
+    "path":"sprites/deb_col_ground_bars/deb_col_ground_bars.yy",
   },
   "spriteMaskId":null,
   "visible":true,

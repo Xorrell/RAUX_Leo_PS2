@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
-/// @DnDHash : 711DC7DA
+/// @DnDHash : 627C51B8
 /// @DnDArgument : "x" "1500"
 /// @DnDArgument : "y" "850"
 /// @DnDArgument : "xscale" "4"
@@ -11,13 +11,13 @@ draw_sprite_ext(deb_GUI_goal, 0, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 1C624D79
+/// @DnDHash : 492C41F7
 /// @DnDArgument : "var" "obj_win_condition.has_treasure"
 /// @DnDArgument : "value" "1"
 if(obj_win_condition.has_treasure == 1){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
-	/// @DnDHash : 202D9F67
-	/// @DnDParent : 1C624D79
+	/// @DnDHash : 5D9C74BC
+	/// @DnDParent : 492C41F7
 	/// @DnDArgument : "x" "1500"
 	/// @DnDArgument : "y" "850"
 	/// @DnDArgument : "xscale" "4"
@@ -29,13 +29,13 @@ if(obj_win_condition.has_treasure == 1){	/// @DnDAction : YoYo Games.Drawing.D
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 2A63E688
+/// @DnDHash : 69C1B639
 /// @DnDArgument : "var" "obj_win_condition.has_treasure"
 /// @DnDArgument : "value" "2"
 if(obj_win_condition.has_treasure == 2){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
-	/// @DnDHash : 2EE67E6D
-	/// @DnDParent : 2A63E688
+	/// @DnDHash : 05B5ACBF
+	/// @DnDParent : 69C1B639
 	/// @DnDArgument : "x" "1500"
 	/// @DnDArgument : "y" "850"
 	/// @DnDArgument : "xscale" "4"
@@ -47,13 +47,13 @@ if(obj_win_condition.has_treasure == 2){	/// @DnDAction : YoYo Games.Drawing.D
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 2D6CFE0C
+/// @DnDHash : 3EDF8C3E
 /// @DnDArgument : "var" "obj_win_condition.has_treasure"
 /// @DnDArgument : "value" "3"
 if(obj_win_condition.has_treasure == 3){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
-	/// @DnDHash : 512DDBF1
-	/// @DnDParent : 2D6CFE0C
+	/// @DnDHash : 09B065E4
+	/// @DnDParent : 3EDF8C3E
 	/// @DnDArgument : "x" "1500"
 	/// @DnDArgument : "y" "850"
 	/// @DnDArgument : "xscale" "4"
@@ -65,13 +65,13 @@ if(obj_win_condition.has_treasure == 3){	/// @DnDAction : YoYo Games.Drawing.D
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 19F3F703
+/// @DnDHash : 0266C319
 /// @DnDArgument : "var" "obj_win_condition.valid_treasure"
 /// @DnDArgument : "value" "obj_win_condition.has_treasure"
 if(obj_win_condition.valid_treasure == obj_win_condition.has_treasure){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
-	/// @DnDHash : 0FA17F6F
-	/// @DnDParent : 19F3F703
+	/// @DnDHash : 4F65ABF5
+	/// @DnDParent : 0266C319
 	/// @DnDArgument : "x" "1500"
 	/// @DnDArgument : "y" "850"
 	/// @DnDArgument : "xscale" "4"
