@@ -1,3 +1,11 @@
+/// @DnDAction : YoYo Games.Instances.Set_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 1C91B4A3
+/// @DnDArgument : "spriteind" "deb_player1"
+/// @DnDSaveInfo : "spriteind" "deb_player1"
+sprite_index = deb_player1;
+image_index = 0;
+
 /// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDVersion : 1.1
 /// @DnDHash : 3DDC58D1
@@ -14,6 +22,35 @@ var l3DDC58D1_0 = instance_place(x + 0, y + 0, [obj_col_ground]);if (!(l3DDC58D
 	/// @DnDArgument : "var" "state"
 	state = "Falling";}
 
+/// @DnDAction : YoYo Games.Collisions.If_Object_At
+/// @DnDVersion : 1.1
+/// @DnDHash : 2F9F9043
+/// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "1"
+/// @DnDArgument : "y_relative" "1"
+/// @DnDArgument : "target" ""
+/// @DnDArgument : "object" "obj_col_ground"
+/// @DnDSaveInfo : "object" "obj_col_ground"
+var l2F9F9043_0 = instance_place(x + 0, y + 1, [obj_col_ground]);if ((l2F9F9043_0 > 0)){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+	/// @DnDVersion : 1
+	/// @DnDHash : 4E8763A1
+	/// @DnDParent : 2F9F9043
+	/// @DnDArgument : "key" "ord("S")"
+	var l4E8763A1_0;l4E8763A1_0 = keyboard_check(ord("S"));if (l4E8763A1_0){	/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 0820D039
+		/// @DnDParent : 4E8763A1
+		/// @DnDArgument : "var" "obj_player_switch.controlled_p"
+		/// @DnDArgument : "value" "false"
+		if(obj_player_switch.controlled_p == false){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+			/// @DnDVersion : 1
+			/// @DnDHash : 4A7ECBDD
+			/// @DnDParent : 0820D039
+			/// @DnDArgument : "spriteind" "deb_player1_crouch"
+			/// @DnDSaveInfo : "spriteind" "deb_player1_crouch"
+			sprite_index = deb_player1_crouch;
+			image_index = 0;}}}
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 02F040EA
@@ -26,12 +63,12 @@ if(state == "Falling"){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDParent : 02F040EA
 	/// @DnDArgument : "expr" "fallspeed"
 	/// @DnDArgument : "expr_relative" "1"
-	/// @DnDArgument : "expr_1" "0.25"
+	/// @DnDArgument : "expr_1" "0.2"
 	/// @DnDArgument : "expr_relative_1" "1"
 	/// @DnDArgument : "var" "y"
 	/// @DnDArgument : "var_1" "fallspeed"
 	y += fallspeed;
-	fallspeed += 0.25;}
+	fallspeed += 0.2;}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

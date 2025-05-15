@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"player0_crouch",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.075011335,
+  "name":"player0_crouch",
+  "parent":{
+    "name":"Player0",
+    "path":"folders/Sounds/Player0.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"player0_crouch.wav",
+  "type":0,
+  "volume":1.0,
+}

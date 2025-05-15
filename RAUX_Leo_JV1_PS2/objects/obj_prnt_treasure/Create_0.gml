@@ -14,3 +14,9 @@ audio_play_sound(ambiance_treasure, 0, 1, 0.1, undefined, 1.0);
 /// @DnDArgument : "expr_relative" "1"
 /// @DnDArgument : "var" "obj_win_condition.has_treasure"
 obj_win_condition.has_treasure += 1;
+
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 04B5BAEA
+/// @DnDArgument : "msg" "obj_win_condition.has_treasure"
+show_debug_message(string(obj_win_condition.has_treasure));

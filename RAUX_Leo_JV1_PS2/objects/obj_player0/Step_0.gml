@@ -58,21 +58,35 @@ var l6C4DB435_0 = instance_place(x + 0, y + 0, [obj_col_ground, obj_col_ground_b
 /// @DnDArgument : "object_1" "obj_col_ground_bars"
 /// @DnDSaveInfo : "object" "obj_col_ground"
 /// @DnDSaveInfo : "object_1" "obj_col_ground_bars"
-var l31E23BC3_0 = instance_place(x + 0, y + 1, [obj_col_ground, obj_col_ground_bars]);if ((l31E23BC3_0 > 0)){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+var l31E23BC3_0 = instance_place(x + 0, y + 1, [obj_col_ground, obj_col_ground_bars]);if ((l31E23BC3_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 38F93F38
+	/// @DnDHash : 091DE48F
 	/// @DnDParent : 31E23BC3
-	/// @DnDArgument : "key" "ord("S")"
-	var l38F93F38_0;l38F93F38_0 = keyboard_check(ord("S"));if (l38F93F38_0){	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDArgument : "var" "obj_player_switch.controlled_p"
+	/// @DnDArgument : "value" "true"
+	if(obj_player_switch.controlled_p == true){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
 		/// @DnDVersion : 1
-		/// @DnDHash : 091DE48F
-		/// @DnDParent : 38F93F38
-		/// @DnDArgument : "var" "obj_player_switch.controlled_p"
-		/// @DnDArgument : "value" "true"
-		if(obj_player_switch.controlled_p == true){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		/// @DnDHash : 78F7C61A
+		/// @DnDParent : 091DE48F
+		/// @DnDArgument : "key" "ord("S")"
+		var l78F7C61A_0;l78F7C61A_0 = keyboard_check_pressed(ord("S"));if (l78F7C61A_0){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 66F188B9
+			/// @DnDParent : 78F7C61A
+			/// @DnDArgument : "soundid" "player0_crouch"
+			/// @DnDArgument : "gain" "0.8"
+			/// @DnDSaveInfo : "soundid" "player0_crouch"
+			audio_play_sound(player0_crouch, 0, 0, 0.8, undefined, 1.0);}
+	
+		/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Down
+		/// @DnDVersion : 1
+		/// @DnDHash : 38F93F38
+		/// @DnDParent : 091DE48F
+		/// @DnDArgument : "key" "ord("S")"
+		var l38F93F38_0;l38F93F38_0 = keyboard_check(ord("S"));if (l38F93F38_0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 			/// @DnDVersion : 1
 			/// @DnDHash : 7B86CAFD
-			/// @DnDParent : 091DE48F
+			/// @DnDParent : 38F93F38
 			/// @DnDArgument : "spriteind" "deb_player0_crouch"
 			/// @DnDSaveInfo : "spriteind" "deb_player0_crouch"
 			sprite_index = deb_player0_crouch;

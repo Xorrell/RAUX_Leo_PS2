@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_exit_player0",
+  "%Name":"obj_item_pickaxe",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player0","path":"objects/obj_player0/obj_player0.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_exit_player0",
+  "name":"obj_item_pickaxe",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obstacles",
-    "path":"folders/Objects/Obstacles.yy",
+    "name":"Items",
+    "path":"folders/Objects/Items.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"deb_exit_player0",
-    "path":"sprites/deb_exit_player0/deb_exit_player0.yy",
+    "name":"spr_item_pickaxe",
+    "path":"sprites/spr_item_pickaxe/spr_item_pickaxe.yy",
   },
   "spriteMaskId":null,
   "visible":true,
