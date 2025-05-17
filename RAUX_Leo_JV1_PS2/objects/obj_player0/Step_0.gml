@@ -88,9 +88,9 @@ var l1C8C4A38_0 = instance_place(x + 0, y + 0, [obj_colorblock0]);if (!(l1C8C4A
 	/// @DnDVersion : 1
 	/// @DnDHash : 335936D4
 	/// @DnDParent : 1C8C4A38
-	/// @DnDArgument : "var" "obj_colorblock0.open"
+	/// @DnDArgument : "var" "obj_button0.open"
 	/// @DnDArgument : "value" "false"
-	if(obj_colorblock0.open == false){	/// @DnDAction : YoYo Games.Common.Variable
+	if(obj_button0.open == false){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 7A2C3E1B
 		/// @DnDParent : 335936D4

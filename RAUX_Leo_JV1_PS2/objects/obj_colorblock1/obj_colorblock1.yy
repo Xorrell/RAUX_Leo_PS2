@@ -1,21 +1,17 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button1",
+  "%Name":"obj_colorblock1",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button1",
+  "name":"obj_colorblock1",
   "overriddenProperties":[],
   "parent":{
     "name":"Obstacles",
     "path":"folders/Objects/Obstacles.yy",
   },
-  "parentObjectId":{
-    "name":"obj_prnt_button",
-    "path":"objects/obj_prnt_button/obj_prnt_button.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -34,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_button_open1",
-    "path":"sprites/spr_button_open1/spr_button_open1.yy",
+    "name":"spr_colorblock1",
+    "path":"sprites/spr_colorblock1/spr_colorblock1.yy",
   },
   "spriteMaskId":null,
   "visible":true,

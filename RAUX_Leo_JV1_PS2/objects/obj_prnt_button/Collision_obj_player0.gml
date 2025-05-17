@@ -21,12 +21,12 @@ if(obj_player0.fallspeed > 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDHash : 1515B3FF
 			/// @DnDInput : 2
 			/// @DnDParent : 6310857A
-			/// @DnDArgument : "expr" "false"
-			/// @DnDArgument : "expr_1" "false"
-			/// @DnDArgument : "var" "self.open"
-			/// @DnDArgument : "var_1" "obj_colorblock0.open"
-			self.open = false;
-			obj_colorblock0.open = false;
+			/// @DnDArgument : "expr" "!obj_button0.open"
+			/// @DnDArgument : "expr_1" "!obj_button1.open"
+			/// @DnDArgument : "var" "obj_button0.open"
+			/// @DnDArgument : "var_1" "obj_button1.open"
+			obj_button0.open = !obj_button0.open;
+			obj_button1.open = !obj_button1.open;
 		
 			/// @DnDAction : YoYo Games.Audio.Play_Audio
 			/// @DnDVersion : 1.1
