@@ -46,10 +46,10 @@ if(obj_player0.inventory == "Grapple"){	/// @DnDAction : YoYo Games.Drawing.Dr
 	/// @DnDArgument : "y" "216"
 	/// @DnDArgument : "xscale" "4"
 	/// @DnDArgument : "yscale" "4"
-	/// @DnDArgument : "sprite" "deb_GUI_goal"
+	/// @DnDArgument : "sprite" "deb_GUI_tool"
 	/// @DnDArgument : "frame" "2"
-	/// @DnDSaveInfo : "sprite" "deb_GUI_goal"
-	draw_sprite_ext(deb_GUI_goal, 2, 216, 216, 4, 4, 0, $FFFFFF & $ffffff, 1);}
+	/// @DnDSaveInfo : "sprite" "deb_GUI_tool"
+	draw_sprite_ext(deb_GUI_tool, 2, 216, 216, 4, 4, 0, $FFFFFF & $ffffff, 1);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

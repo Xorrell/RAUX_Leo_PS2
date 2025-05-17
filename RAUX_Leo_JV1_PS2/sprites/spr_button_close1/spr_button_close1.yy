@@ -27,7 +27,7 @@
   "origin":7,
   "parent":{
     "name":"Buttons",
-    "path":"folders/Sprites/Obtsacles/Buttons.yy",
+    "path":"folders/Sprites/Obstacles/Buttons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
