@@ -7,11 +7,10 @@ if(self.open == false){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 51BF9D5B
 	/// @DnDParent : 2EFB2595
-	/// @DnDArgument : "imageind_relative" "1"
 	/// @DnDArgument : "spriteind" "spr_button_close1"
 	/// @DnDSaveInfo : "spriteind" "spr_button_close1"
 	sprite_index = spr_button_close1;
-	image_index += 0;}
+	image_index = 0;}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
