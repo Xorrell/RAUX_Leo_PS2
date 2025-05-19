@@ -17,9 +17,8 @@ if(self.open == false){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 1A781C9F
 	/// @DnDParent : 5B1510FF
-	/// @DnDArgument : "steps" "100"
-	/// @DnDArgument : "steps_relative" "1"
-	alarm_set(0, 100 + alarm_get(0));}
+	/// @DnDArgument : "steps" "60"
+	alarm_set(0, 60);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

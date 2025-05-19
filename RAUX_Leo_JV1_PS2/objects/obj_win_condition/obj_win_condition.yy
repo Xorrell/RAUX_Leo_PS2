@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_win_condition",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_win_condition",
   "overriddenProperties":[],

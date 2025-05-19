@@ -5,7 +5,7 @@
 /// @DnDArgument : "value" "false"
 if(thru_bars == false){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 03C21C96
+	/// @DnDHash : 2BABF8F5
 	/// @DnDInput : 2
 	/// @DnDParent : 6B38373C
 	/// @DnDArgument : "expr" "-self.fallspeed"

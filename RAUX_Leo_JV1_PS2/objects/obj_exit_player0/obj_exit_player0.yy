@@ -8,8 +8,8 @@
   "name":"obj_exit_player0",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obstacles",
-    "path":"folders/Objects/Obstacles.yy",
+    "name":"Important",
+    "path":"folders/Objects/Important.yy",
   },
   "parentObjectId":null,
   "persistent":false,

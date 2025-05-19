@@ -8,9 +8,8 @@ function scr_players_jump() {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDHash : 20BF20F8
 	/// @DnDParent : 38A9CF73
 	/// @DnDArgument : "expr" "-3"
-	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "self.fallspeed"
-	self.fallspeed += -3;
+	self.fallspeed = -3;
 
 	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 	/// @DnDVersion : 1

@@ -1,10 +1,10 @@
 {
   "$GMSprite":"",
   "%Name":"spr_sligma_front",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":15,
-  "bbox_left":1,
-  "bbox_right":14,
+  "bbox_left":5,
+  "bbox_right":10,
   "bbox_top":2,
   "collisionKind":1,
   "collisionTolerance":0,

@@ -7,9 +7,9 @@ if(inventory == "None"){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 5857CF90
 	/// @DnDParent : 589D27A9
-	/// @DnDArgument : "spriteind" "spr_player0__nopick_idle"
-	/// @DnDSaveInfo : "spriteind" "spr_player0__nopick_idle"
-	sprite_index = spr_player0__nopick_idle;
+	/// @DnDArgument : "spriteind" "spr_player0_nopick_idle"
+	/// @DnDSaveInfo : "spriteind" "spr_player0_nopick_idle"
+	sprite_index = spr_player0_nopick_idle;
 	image_index = 0;}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -21,9 +21,9 @@ if(inventory == "GrappleStuck"){	/// @DnDAction : YoYo Games.Instances.Set_Spr
 	/// @DnDVersion : 1
 	/// @DnDHash : 78ADEA49
 	/// @DnDParent : 6A05FF7B
-	/// @DnDArgument : "spriteind" "spr_player0__nopick_idle"
-	/// @DnDSaveInfo : "spriteind" "spr_player0__nopick_idle"
-	sprite_index = spr_player0__nopick_idle;
+	/// @DnDArgument : "spriteind" "spr_player0_nopick_idle"
+	/// @DnDSaveInfo : "spriteind" "spr_player0_nopick_idle"
+	sprite_index = spr_player0_nopick_idle;
 	image_index = 0;}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
@@ -153,14 +153,65 @@ var l31E23BC3_0 = instance_place(x + 0, y + 1, [obj_col_ground, obj_col_ground_b
 		/// @DnDHash : 0958058E
 		/// @DnDParent : 091DE48F
 		/// @DnDArgument : "key" "ord("Z")"
-		var l0958058E_0;l0958058E_0 = keyboard_check(ord("Z"));if (l0958058E_0){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+		var l0958058E_0;l0958058E_0 = keyboard_check(ord("Z"));if (l0958058E_0){	/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1
-			/// @DnDHash : 7EECAD75
+			/// @DnDHash : 63BA8BAB
 			/// @DnDParent : 0958058E
-			/// @DnDArgument : "spriteind" "deb_player0_lookup"
-			/// @DnDSaveInfo : "spriteind" "deb_player0_lookup"
-			sprite_index = deb_player0_lookup;
-			image_index = 0;}}}
+			/// @DnDArgument : "var" "inventory"
+			/// @DnDArgument : "value" ""None""
+			if(inventory == "None"){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+				/// @DnDVersion : 1
+				/// @DnDHash : 7EECAD75
+				/// @DnDParent : 63BA8BAB
+				/// @DnDArgument : "spriteind" "spr_player0_nopick_lookup"
+				/// @DnDSaveInfo : "spriteind" "spr_player0_nopick_lookup"
+				sprite_index = spr_player0_nopick_lookup;
+				image_index = 0;}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 5193CE0D
+			/// @DnDParent : 0958058E
+			/// @DnDArgument : "var" "inventory"
+			/// @DnDArgument : "value" ""GrappleStuck""
+			if(inventory == "GrappleStuck"){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+				/// @DnDVersion : 1
+				/// @DnDHash : 5E28D880
+				/// @DnDParent : 5193CE0D
+				/// @DnDArgument : "spriteind" "spr_player0_nopick_lookup"
+				/// @DnDSaveInfo : "spriteind" "spr_player0_nopick_lookup"
+				sprite_index = spr_player0_nopick_lookup;
+				image_index = 0;}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 4EA39FC8
+			/// @DnDParent : 0958058E
+			/// @DnDArgument : "var" "inventory"
+			/// @DnDArgument : "value" ""Pickaxe""
+			if(inventory == "Pickaxe"){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+				/// @DnDVersion : 1
+				/// @DnDHash : 1B97DB16
+				/// @DnDParent : 4EA39FC8
+				/// @DnDArgument : "spriteind" "spr_player0_lookup"
+				/// @DnDSaveInfo : "spriteind" "spr_player0_lookup"
+				sprite_index = spr_player0_lookup;
+				image_index = 0;}
+		
+			/// @DnDAction : YoYo Games.Common.If_Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 6DED3710
+			/// @DnDParent : 0958058E
+			/// @DnDArgument : "var" "inventory"
+			/// @DnDArgument : "value" ""Grapple""
+			if(inventory == "Grapple"){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
+				/// @DnDVersion : 1
+				/// @DnDHash : 59D1BF7A
+				/// @DnDParent : 6DED3710
+				/// @DnDArgument : "spriteind" "spr_player0_lookup"
+				/// @DnDSaveInfo : "spriteind" "spr_player0_lookup"
+				sprite_index = spr_player0_lookup;
+				image_index = 0;}}}}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

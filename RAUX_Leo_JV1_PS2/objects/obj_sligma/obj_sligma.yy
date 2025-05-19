@@ -3,7 +3,7 @@
   "%Name":"obj_sligma",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_sligma",
@@ -32,13 +32,15 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"thru_bars","filters":[],"listItems":[],"multiselect":false,"name":"thru_bars","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"fallspeed","filters":[],"listItems":[],"multiselect":false,"name":"fallspeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"dir_start","filters":[],"listItems":[],"multiselect":false,"name":"dir_start","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"true","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"hor_walk","filters":[],"listItems":[],"multiselect":false,"name":"hor_walk","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"deb_sligma",
-    "path":"sprites/deb_sligma/deb_sligma.yy",
+    "name":"spr_sligma_side",
+    "path":"sprites/spr_sligma_side/spr_sligma_side.yy",
   },
   "spriteMaskId":null,
   "visible":true,
