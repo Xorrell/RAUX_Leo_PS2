@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_grapple_throw",
+  "%Name":"obj_rope",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_grapple_throw",
+  "name":"obj_rope",
   "overriddenProperties":[],
   "parent":{
-    "name":"Projectile",
-    "path":"folders/Objects/Projectile.yy",
+    "name":"Obstacles",
+    "path":"folders/Objects/Obstacles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_item_grapple_throw",
-    "path":"sprites/spr_item_grapple_throw/spr_item_grapple_throw.yy",
+    "name":"spr_rope_end",
+    "path":"sprites/spr_rope_end/spr_rope_end.yy",
   },
   "spriteMaskId":null,
   "visible":true,

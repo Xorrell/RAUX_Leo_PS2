@@ -5,8 +5,8 @@
   "isDnD":true,
   "name":"scr_death",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Players",
+    "path":"folders/Scripts/Players.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

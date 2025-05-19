@@ -28,7 +28,6 @@ var l3DDC58D1_0 = instance_place(x + 0, y + 0, [obj_col_ground]);if (!(l3DDC58D
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "1"
 /// @DnDArgument : "y_relative" "1"
-/// @DnDArgument : "target" ""
 /// @DnDArgument : "object" "obj_col_ground"
 /// @DnDSaveInfo : "object" "obj_col_ground"
 var l2F9F9043_0 = instance_place(x + 0, y + 1, [obj_col_ground]);if ((l2F9F9043_0 > 0)){	/// @DnDAction : YoYo Games.Mouse & Keyboard.If_Key_Pressed
