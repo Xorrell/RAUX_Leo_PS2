@@ -40,7 +40,8 @@
         "\"Idle\"",
         "\"Falling\"",
         "\"Walk\"",
-        "\"Grapple\"",
+        "\"GrappleThrow\"",
+        "\"Climb\"",
       ],"multiselect":false,"name":"state","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"Idle\"","varType":6,},
     {"$GMObjectProperty":"v1","%Name":"hor_walk","filters":[],"listItems":[],"multiselect":false,"name":"hor_walk","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
     {"$GMObjectProperty":"v1","%Name":"inventory","filters":[],"listItems":[
