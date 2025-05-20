@@ -15,4 +15,12 @@ var l18E679BD_0 = instance_place(x + 0, y + 0, [obj_treasure, obj_treasure_bad])
 	/// @DnDParent : 18E679BD
 	/// @DnDArgument : "expr" "true"
 	/// @DnDArgument : "var" "carry_treasure"
-	carry_treasure = true;}
+	carry_treasure = true;
+
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 0311F391
+	/// @DnDParent : 18E679BD
+	/// @DnDArgument : "soundid" "treasure_collect"
+	/// @DnDSaveInfo : "soundid" "treasure_collect"
+	audio_play_sound(treasure_collect, 0, 0, 1.0, undefined, 1.0);}

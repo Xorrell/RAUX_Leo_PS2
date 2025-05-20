@@ -145,6 +145,7 @@
     {"id":{"name":"rope_appear","path":"sounds/rope_appear/rope_appear.yy",},},
     {"id":{"name":"switch_click","path":"sounds/switch_click/switch_click.yy",},},
     {"id":{"name":"switch_poof","path":"sounds/switch_poof/switch_poof.yy",},},
+    {"id":{"name":"treasure_collect","path":"sounds/treasure_collect/treasure_collect.yy",},},
     {"id":{"name":"treasure_fall","path":"sounds/treasure_fall/treasure_fall.yy",},},
     {"id":{"name":"treasure_grab","path":"sounds/treasure_grab/treasure_grab.yy",},},
     {"id":{"name":"deb_arrowup","path":"sprites/deb_arrowup/deb_arrowup.yy",},},

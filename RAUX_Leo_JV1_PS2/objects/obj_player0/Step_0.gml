@@ -453,10 +453,3 @@ if(state == "Climb"){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 		/// @DnDArgument : "expr" ""Jump""
 		/// @DnDArgument : "var" "state"
 		state = "Jump";}}
-
-/// @DnDAction : YoYo Games.Instances.Color_Sprite
-/// @DnDVersion : 1
-/// @DnDHash : 22D4434F
-/// @DnDArgument : "colour" "$85FFFF00"
-image_blend = $85FFFF00 & $ffffff;
-image_alpha = ($85FFFF00 >> 24) / $ff;
