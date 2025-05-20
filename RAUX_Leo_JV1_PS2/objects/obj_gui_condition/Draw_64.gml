@@ -5,9 +5,9 @@
 /// @DnDArgument : "y" "850"
 /// @DnDArgument : "xscale" "4"
 /// @DnDArgument : "yscale" "4"
-/// @DnDArgument : "sprite" "deb_GUI_goal"
-/// @DnDSaveInfo : "sprite" "deb_GUI_goal"
-draw_sprite_ext(deb_GUI_goal, 0, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);
+/// @DnDArgument : "sprite" "spr_GUI_condition_treasure"
+/// @DnDSaveInfo : "sprite" "spr_GUI_condition_treasure"
+draw_sprite_ext(spr_GUI_condition_treasure, 0, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -22,10 +22,10 @@ if(obj_win_condition.has_treasure - obj_win_condition.valid_treasure == 1){	//
 	/// @DnDArgument : "y" "850"
 	/// @DnDArgument : "xscale" "4"
 	/// @DnDArgument : "yscale" "4"
-	/// @DnDArgument : "sprite" "deb_GUI_goal"
+	/// @DnDArgument : "sprite" "spr_GUI_condition_treasure"
 	/// @DnDArgument : "frame" "1"
-	/// @DnDSaveInfo : "sprite" "deb_GUI_goal"
-	draw_sprite_ext(deb_GUI_goal, 1, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);}
+	/// @DnDSaveInfo : "sprite" "spr_GUI_condition_treasure"
+	draw_sprite_ext(spr_GUI_condition_treasure, 1, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -40,10 +40,10 @@ if(obj_win_condition.has_treasure - obj_win_condition.valid_treasure == 2){	//
 	/// @DnDArgument : "y" "850"
 	/// @DnDArgument : "xscale" "4"
 	/// @DnDArgument : "yscale" "4"
-	/// @DnDArgument : "sprite" "deb_GUI_goal"
+	/// @DnDArgument : "sprite" "spr_GUI_condition_treasure"
 	/// @DnDArgument : "frame" "2"
-	/// @DnDSaveInfo : "sprite" "deb_GUI_goal"
-	draw_sprite_ext(deb_GUI_goal, 2, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);}
+	/// @DnDSaveInfo : "sprite" "spr_GUI_condition_treasure"
+	draw_sprite_ext(spr_GUI_condition_treasure, 2, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -58,10 +58,10 @@ if(obj_win_condition.has_treasure - obj_win_condition.valid_treasure == 3){	//
 	/// @DnDArgument : "y" "850"
 	/// @DnDArgument : "xscale" "4"
 	/// @DnDArgument : "yscale" "4"
-	/// @DnDArgument : "sprite" "deb_GUI_goal"
+	/// @DnDArgument : "sprite" "spr_GUI_condition_treasure"
 	/// @DnDArgument : "frame" "3"
-	/// @DnDSaveInfo : "sprite" "deb_GUI_goal"
-	draw_sprite_ext(deb_GUI_goal, 3, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);}
+	/// @DnDSaveInfo : "sprite" "spr_GUI_condition_treasure"
+	draw_sprite_ext(spr_GUI_condition_treasure, 3, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -75,7 +75,7 @@ if(obj_win_condition.has_treasure - obj_win_condition.valid_treasure == 0){	//
 	/// @DnDArgument : "y" "850"
 	/// @DnDArgument : "xscale" "4"
 	/// @DnDArgument : "yscale" "4"
-	/// @DnDArgument : "sprite" "deb_GUI_goal"
+	/// @DnDArgument : "sprite" "spr_GUI_condition_treasure"
 	/// @DnDArgument : "frame" "4"
-	/// @DnDSaveInfo : "sprite" "deb_GUI_goal"
-	draw_sprite_ext(deb_GUI_goal, 4, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);}
+	/// @DnDSaveInfo : "sprite" "spr_GUI_condition_treasure"
+	draw_sprite_ext(spr_GUI_condition_treasure, 4, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);}

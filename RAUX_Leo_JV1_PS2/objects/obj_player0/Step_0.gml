@@ -103,7 +103,7 @@ var l1C8C4A38_0 = instance_place(x + 0, y + 0, [obj_colorblock0]);if (!(l1C8C4A
 /// @DnDHash : 31E23BC3
 /// @DnDInput : 4
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "1"
+/// @DnDArgument : "y" "8"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "target" ""
 /// @DnDArgument : "object" "obj_col_ground"
@@ -114,7 +114,7 @@ var l1C8C4A38_0 = instance_place(x + 0, y + 0, [obj_colorblock0]);if (!(l1C8C4A
 /// @DnDSaveInfo : "object_1" "obj_col_ground_bars"
 /// @DnDSaveInfo : "object_2" "obj_felixfreeze"
 /// @DnDSaveInfo : "object_3" "obj_colorblock0"
-var l31E23BC3_0 = instance_place(x + 0, y + 1, [obj_col_ground, obj_col_ground_bars, obj_felixfreeze, obj_colorblock0]);if ((l31E23BC3_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
+var l31E23BC3_0 = instance_place(x + 0, y + 8, [obj_col_ground, obj_col_ground_bars, obj_felixfreeze, obj_colorblock0]);if ((l31E23BC3_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 091DE48F
 	/// @DnDParent : 31E23BC3

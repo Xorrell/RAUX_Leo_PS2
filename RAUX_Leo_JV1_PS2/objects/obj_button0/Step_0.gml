@@ -7,18 +7,11 @@ if(self.open == false){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 51981330
 	/// @DnDParent : 5B1510FF
-	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "imageind" "1"
 	/// @DnDArgument : "spriteind" "spr_button_close0"
 	/// @DnDSaveInfo : "spriteind" "spr_button_close0"
 	sprite_index = spr_button_close0;
-	image_index += 0;
-
-	/// @DnDAction : YoYo Games.Instances.Set_Alarm
-	/// @DnDVersion : 1
-	/// @DnDHash : 12FC6BAE
-	/// @DnDParent : 5B1510FF
-	/// @DnDArgument : "steps" "90"
-	alarm_set(0, 90);}
+	image_index = 1;}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

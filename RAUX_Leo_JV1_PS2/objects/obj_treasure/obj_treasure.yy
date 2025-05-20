@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"deb_treasure",
-    "path":"sprites/deb_treasure/deb_treasure.yy",
+    "name":"spr_treasure",
+    "path":"sprites/spr_treasure/spr_treasure.yy",
   },
   "spriteMaskId":null,
   "visible":true,

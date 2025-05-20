@@ -1,9 +1,13 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 3F53B1F3
+/// @DnDInput : 2
 /// @DnDArgument : "expr" "true"
+/// @DnDArgument : "expr_1" "false"
 /// @DnDArgument : "var" "open"
+/// @DnDArgument : "var_1" "countdown"
 open = true;
+countdown = false;
 
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
