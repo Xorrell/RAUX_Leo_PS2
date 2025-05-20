@@ -23,7 +23,7 @@
   ],
   "name":"spr_rope_end",
   "nineSlice":null,
-  "origin":0,
+  "origin":1,
   "parent":{
     "name":"Obstacles",
     "path":"folders/Sprites/Obstacles.yy",
@@ -77,7 +77,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":0,
+    "xorigin":8,
     "yorigin":0,
   },
   "swatchColours":null,

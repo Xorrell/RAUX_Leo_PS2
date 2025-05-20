@@ -1,9 +1,16 @@
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 34A44017
-/// @DnDArgument : "expr" ""Walking""
+/// @DnDHash : 0573B76A
 /// @DnDArgument : "var" "state"
-state = "Walking";
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "value" ""Climb""
+if(!(state == "Climb")){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 274C9B3C
+	/// @DnDParent : 0573B76A
+	/// @DnDArgument : "expr" ""Walking""
+	/// @DnDArgument : "var" "state"
+	state = "Walking";}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

@@ -23,7 +23,8 @@ if(self.open == false){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
 		/// @DnDHash : 1A781C9F
 		/// @DnDParent : 75ED4D1D
-		alarm_set(0, 30);
+		/// @DnDArgument : "steps" "45"
+		alarm_set(0, 45);
 	
 		/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDVersion : 1

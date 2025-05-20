@@ -31,4 +31,12 @@ var l3C1231EC_0 = instance_place(x + 0, y + 16, [obj_col_ground, obj_col_ground_
 		/// @DnDArgument : "objectid" "obj_rope"
 		/// @DnDArgument : "layer" ""Entities""
 		/// @DnDSaveInfo : "objectid" "obj_rope"
-		instance_create_layer(x + 0, y + 16, "Entities", obj_rope);}}
+		instance_create_layer(x + 0, y + 16, "Entities", obj_rope);
+	
+		/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 4D062987
+		/// @DnDParent : 37AF05D5
+		/// @DnDArgument : "soundid" "rope_appear"
+		/// @DnDSaveInfo : "soundid" "rope_appear"
+		audio_play_sound(rope_appear, 0, 0, 1.0, undefined, 1.0);}}
