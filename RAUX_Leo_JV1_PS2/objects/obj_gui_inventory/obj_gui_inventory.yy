@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_gui_tool",
+  "%Name":"obj_gui_inventory",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_gui_tool",
+  "name":"obj_gui_inventory",
   "overriddenProperties":[],
   "parent":{
     "name":"GUI",

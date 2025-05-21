@@ -15,7 +15,6 @@
     {"$GMSpriteFrame":"","%Name":"a2821367-1a5a-4396-8758-2cfce4db2f8b","name":"a2821367-1a5a-4396-8758-2cfce4db2f8b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"d21ae092-ed82-4ca2-b52f-1ce9dbbdb242","name":"d21ae092-ed82-4ca2-b52f-1ce9dbbdb242","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"bad57432-53ae-4c1b-943f-7c5b9c0d9d69","name":"bad57432-53ae-4c1b-943f-7c5b9c0d9d69","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"48530fe9-d6d5-4e03-b640-6e5c7d5bd818","name":"48530fe9-d6d5-4e03-b640-6e5c7d5bd818","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"","%Name":"2797704c-ac33-4f91-a6bc-2060902e69f8","name":"2797704c-ac33-4f91-a6bc-2060902e69f8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
@@ -53,7 +52,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":5.0,
+    "length":4.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -84,11 +83,8 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"bad57432-53ae-4c1b-943f-7c5b9c0d9d69","path":"sprites/deb_GUI_tool/deb_GUI_tool.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"b32178a5-47f5-4a84-8785-60a2777cf1b8","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"48530fe9-d6d5-4e03-b640-6e5c7d5bd818","path":"sprites/deb_GUI_tool/deb_GUI_tool.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4b31d464-0cc5-4b52-b0a4-d106f66f7f66","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
-            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"2797704c-ac33-4f91-a6bc-2060902e69f8","path":"sprites/deb_GUI_tool/deb_GUI_tool.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"2bf35e3e-4eca-42e0-9e84-8e4dcc160875","IsCreationKey":false,"Key":4.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"2bf35e3e-4eca-42e0-9e84-8e4dcc160875","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

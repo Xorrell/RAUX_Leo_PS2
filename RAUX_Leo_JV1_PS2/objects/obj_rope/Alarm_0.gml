@@ -3,7 +3,7 @@
 /// @DnDHash : 3C1231EC
 /// @DnDInput : 2
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "16"
+/// @DnDArgument : "y" "32"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "target" ""
 /// @DnDArgument : "object" "obj_col_ground"
@@ -11,7 +11,7 @@
 /// @DnDArgument : "not" "1"
 /// @DnDSaveInfo : "object" "obj_col_ground"
 /// @DnDSaveInfo : "object_1" "obj_col_ground_bars"
-var l3C1231EC_0 = instance_place(x + 0, y + 16, [obj_col_ground, obj_col_ground_bars]);if (!(l3C1231EC_0 > 0)){	/// @DnDAction : YoYo Games.Collisions.If_Object_At
+var l3C1231EC_0 = instance_place(x + 0, y + 32, [obj_col_ground, obj_col_ground_bars]);if (!(l3C1231EC_0 > 0)){	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 37AF05D5
 	/// @DnDParent : 3C1231EC
