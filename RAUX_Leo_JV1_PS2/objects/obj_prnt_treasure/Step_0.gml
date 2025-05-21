@@ -32,10 +32,28 @@ if(carried == false){	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 /// @DnDHash : 0F683C44
 /// @DnDArgument : "var" "carried"
 /// @DnDArgument : "value" "true"
-if(carried == true){	/// @DnDAction : YoYo Games.Common.Execute_Script
-	/// @DnDVersion : 1.1
-	/// @DnDHash : 46C7DFB8
+if(carried == true){	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 62A66CB6
 	/// @DnDParent : 0F683C44
-	/// @DnDArgument : "script" "scr_carry"
-	/// @DnDSaveInfo : "script" "scr_carry"
-	script_execute(scr_carry);}
+	/// @DnDArgument : "var" "obj_player0.carry_treasure"
+	/// @DnDArgument : "value" "true"
+	if(obj_player0.carry_treasure == true){	/// @DnDAction : YoYo Games.Common.Execute_Script
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 46C7DFB8
+		/// @DnDParent : 62A66CB6
+		/// @DnDArgument : "script" "scr_carry"
+		/// @DnDSaveInfo : "script" "scr_carry"
+		script_execute(scr_carry);}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 72546807
+	/// @DnDParent : 0F683C44
+	else{	/// @DnDAction : YoYo Games.Common.Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 08EABD70
+		/// @DnDParent : 72546807
+		/// @DnDArgument : "expr" "false"
+		/// @DnDArgument : "var" "carried"
+		carried = false;}}

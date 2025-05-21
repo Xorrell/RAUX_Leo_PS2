@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_destructible",
+  "%Name":"obj_ground",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_pickaxe_attack","path":"objects/obj_pickaxe_attack/obj_pickaxe_attack.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_destructible",
+  "name":"obj_ground",
   "overriddenProperties":[],
   "parent":{
-    "name":"Obstacles",
-    "path":"folders/Objects/Obstacles.yy",
+    "name":"Tiles",
+    "path":"folders/Objects/Tiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"deb_destructible",
-    "path":"sprites/deb_destructible/deb_destructible.yy",
+    "name":"spr_ground_top",
+    "path":"sprites/spr_ground_top/spr_ground_top.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -15,12 +15,3 @@ var l41B19EEF_0 = instance_place(x + 0, y + -16, [obj_lava]);if ((l41B19EEF_0 >
 	/// @DnDSaveInfo : "spriteind" "spr_lava_inner"
 	sprite_index = spr_lava_inner;
 	image_index += 0;}
-
-/// @DnDAction : YoYo Games.Common.Else
-/// @DnDVersion : 1
-/// @DnDHash : 2FB144CE
-else{	/// @DnDAction : YoYo Games.Common.Exit_Event
-	/// @DnDVersion : 1
-	/// @DnDHash : 50555145
-	/// @DnDParent : 2FB144CE
-	exit;}

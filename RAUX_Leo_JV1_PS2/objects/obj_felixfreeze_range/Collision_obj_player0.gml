@@ -36,10 +36,10 @@ if(obj_felixfreeze.attackcharge > 100){	/// @DnDAction : YoYo Games.Common.Var
 	/// @DnDHash : 46544BD5
 	/// @DnDApplyTo : other
 	/// @DnDParent : 3AB9EE46
-	/// @DnDArgument : "expr" ""Frozen""
-	/// @DnDArgument : "var" "state"
+	/// @DnDArgument : "expr" "true"
+	/// @DnDArgument : "var" "frozen"
 	with(other) {
-	state = "Frozen";
+	frozen = true;
 	
 	}
 

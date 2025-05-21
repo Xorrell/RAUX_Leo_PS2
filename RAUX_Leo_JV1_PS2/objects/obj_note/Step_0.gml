@@ -19,9 +19,9 @@ image_alpha += -0.02;
 /// @DnDInput : 2
 /// @DnDArgument : "expr" "fallspeed"
 /// @DnDArgument : "expr_relative" "1"
-/// @DnDArgument : "expr_1" "dir_angle * 0.001"
+/// @DnDArgument : "expr_1" "dir_angle * 0.005"
 /// @DnDArgument : "expr_relative_1" "1"
 /// @DnDArgument : "var" "y"
 /// @DnDArgument : "var_1" "x"
 y += fallspeed;
-x += dir_angle * 0.001;
+x += dir_angle * 0.005;
