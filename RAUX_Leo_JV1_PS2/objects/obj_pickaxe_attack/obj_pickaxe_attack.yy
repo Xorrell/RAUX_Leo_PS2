@@ -1,16 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_transition",
+  "%Name":"obj_pickaxe_attack",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_transition",
+  "name":"obj_pickaxe_attack",
   "overriddenProperties":[],
   "parent":{
-    "name":"GUI",
-    "path":"folders/Objects/GUI.yy",
+    "name":"Projectile",
+    "path":"folders/Objects/Projectile.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_transition",
-    "path":"sprites/spr_transition/spr_transition.yy",
+    "name":"deb_pickaxe_attack",
+    "path":"sprites/deb_pickaxe_attack/deb_pickaxe_attack.yy",
   },
   "spriteMaskId":null,
   "visible":true,

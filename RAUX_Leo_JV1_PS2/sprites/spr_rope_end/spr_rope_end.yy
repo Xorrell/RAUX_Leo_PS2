@@ -1,8 +1,8 @@
 {
   "$GMSprite":"",
   "%Name":"spr_rope_end",
-  "bboxMode":0,
-  "bbox_bottom":14,
+  "bboxMode":2,
+  "bbox_bottom":0,
   "bbox_left":4,
   "bbox_right":11,
   "bbox_top":0,
