@@ -15,6 +15,8 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":90,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_col_ceiling","path":"objects/obj_col_ceiling/obj_col_ceiling.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_lava","path":"objects/obj_lava/obj_lava.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":39,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":37,"eventType":9,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_player0",
@@ -49,6 +51,11 @@
         "\"Grapple\"",
         "\"GrappleStuck\"",
       ],"multiselect":false,"name":"inventory","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"None\"","varType":6,},
+    {"$GMObjectProperty":"v1","%Name":"inventory_stats","filters":[],"listItems":[
+        "\"None\"",
+        "\"Pickaxe\"",
+        "\"Grapple\"",
+      ],"multiselect":false,"name":"inventory_stats","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"None\"","varType":6,},
     {"$GMObjectProperty":"v1","%Name":"state","filters":[],"listItems":[
         "\"Idle\"",
         "\"Falling\"",

@@ -12,8 +12,8 @@
   "duration":0.8083674,
   "name":"grapple_hitbars",
   "parent":{
-    "name":"Items",
-    "path":"folders/Sounds/Items.yy",
+    "name":"Projectiles",
+    "path":"folders/Sounds/Projectiles.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
