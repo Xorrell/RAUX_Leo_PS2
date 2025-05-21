@@ -13,4 +13,10 @@ function scr_death() {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "var" "obj_player0.cutscene"
 	/// @DnDArgument : "var_1" "obj_player1.cutscene"
 	obj_player0.cutscene = true;
-	obj_player1.cutscene = true;}
+	obj_player1.cutscene = true;
+
+	/// @DnDAction : YoYo Games.Rooms.Restart_Room
+	/// @DnDVersion : 1
+	/// @DnDHash : 29541C37
+	/// @DnDParent : 05B1F038
+	room_restart();}

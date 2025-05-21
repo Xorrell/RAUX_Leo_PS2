@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_music_manager",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_destructible",
+  "eventList":[],
   "managed":true,
-  "name":"obj_music_manager",
+  "name":"obj_destructible",
   "overriddenProperties":[],
   "parent":{
-    "name":"DEBUG",
-    "path":"folders/Objects/DEBUG.yy",
+    "name":"Obstacles",
+    "path":"folders/Objects/Obstacles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"debug",
-    "path":"sprites/debug/debug.yy",
+    "name":"deb_destructible",
+    "path":"sprites/deb_destructible/deb_destructible.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

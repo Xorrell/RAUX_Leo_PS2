@@ -1,6 +1,6 @@
 /// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 /// @DnDVersion : 1
-/// @DnDHash : 4B5D1AA7
+/// @DnDHash : 1C035867
 /// @DnDArgument : "x" "1500"
 /// @DnDArgument : "y" "850"
 /// @DnDArgument : "xscale" "4"

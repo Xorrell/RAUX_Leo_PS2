@@ -13,6 +13,16 @@ var l38356F2D_0 = instance_place(x + 0, y + 0, [obj_rope]);if ((l38356F2D_0 > 0
 	/// @DnDArgument : "var" "state"
 	state = "Climb";
 
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 42B7ADEA
+	/// @DnDInput : 2
+	/// @DnDParent : 38356F2D
+	/// @DnDArgument : "var" "fallspeed"
+	/// @DnDArgument : "var_1" "hor_walk"
+	fallspeed = 0;
+	hor_walk = 0;
+
 	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 	/// @DnDVersion : 1
 	/// @DnDHash : 19F0F931
