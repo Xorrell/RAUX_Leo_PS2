@@ -42,7 +42,7 @@ Et maintenant une liste des objets moins complets. Les descriptions des fonction
 | S | Se baisser | Tous
 | Entrée | Changer de Perso Joueur | Tous
 | E | Porter/Lâcher un Trésor | Pétunia
-| C | Utiliser l' "Item" | Pétunia (Indisponible)
+| Shift | Utiliser l'Outil | Pétunia
 
 ## Crédits:
 
