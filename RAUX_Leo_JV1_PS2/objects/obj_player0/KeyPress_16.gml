@@ -120,5 +120,5 @@ if(obj_player_switch.controlled_p == true){	/// @DnDAction : YoYo Games.Instan
 	/// @DnDVersion : 1
 	/// @DnDHash : 5D7B5388
 	/// @DnDParent : 36E62453
-	/// @DnDArgument : "msg" ""c""
-	show_debug_message(string("c"));}
+	/// @DnDArgument : "msg" ""shift""
+	show_debug_message(string("shift"));}
