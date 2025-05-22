@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_treasure_bad",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player0","path":"objects/obj_player0/obj_player0.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_treasure_bad",
   "overriddenProperties":[],
