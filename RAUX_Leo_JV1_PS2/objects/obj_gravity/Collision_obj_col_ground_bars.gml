@@ -5,12 +5,9 @@
 /// @DnDArgument : "value" "false"
 if(thru_bars == false){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 2BABF8F5
-	/// @DnDInput : 2
+	/// @DnDHash : 4088CDB9
 	/// @DnDParent : 6B38373C
-	/// @DnDArgument : "expr" "-self.fallspeed"
+	/// @DnDArgument : "expr" "-3"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "self.y"
-	/// @DnDArgument : "var_1" "self.fallspeed"
-	self.y += -self.fallspeed;
-	self.fallspeed = 0;}
+	self.y += -3;}

@@ -34,5 +34,6 @@ if(obj_button1.open == false){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDHash : 13932F0C
 		/// @DnDParent : 6BA2A2D7
 		/// @DnDArgument : "expr" "self.x - self.x"
+		/// @DnDArgument : "expr_relative" "1"
 		/// @DnDArgument : "var" "self.x"
-		self.x = self.x - self.x;}}
+		self.x += self.x - self.x;}}

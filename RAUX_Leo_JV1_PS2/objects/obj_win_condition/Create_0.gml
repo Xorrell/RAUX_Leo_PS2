@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 28757360
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "var" "deathtime"
+deathtime = false;
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 1FDDD978

@@ -9,8 +9,8 @@ function scr_carry() {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDInput : 2
 	/// @DnDParent : 76E7A708
 	/// @DnDArgument : "expr" "obj_player0.x"
-	/// @DnDArgument : "expr_1" "obj_player0.y - 7"
+	/// @DnDArgument : "expr_1" "obj_player0.y - 12"
 	/// @DnDArgument : "var" "x"
 	/// @DnDArgument : "var_1" "y"
 	x = obj_player0.x;
-	y = obj_player0.y - 7;}
+	y = obj_player0.y - 12;}

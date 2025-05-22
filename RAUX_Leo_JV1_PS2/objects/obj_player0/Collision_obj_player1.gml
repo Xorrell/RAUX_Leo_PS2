@@ -1,6 +1,6 @@
-/// @DnDAction : YoYo Games.Common.Execute_Script
-/// @DnDVersion : 1.1
-/// @DnDHash : 6B666531
-/// @DnDArgument : "script" "scr_death"
-/// @DnDSaveInfo : "script" "scr_death"
-script_execute(scr_death);
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 5A4DB7E1
+/// @DnDArgument : "expr" ""Burned""
+/// @DnDArgument : "var" "death"
+death = "Burned";

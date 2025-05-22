@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 7F7C5A9D
+/// @DnDArgument : "expr" ""Instant""
+/// @DnDArgument : "var" "death"
+death = "Instant";
+
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 758A48C9

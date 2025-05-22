@@ -602,3 +602,16 @@ if(frozen == true){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDSaveInfo : "spriteind" "spr_player0_nopick_frozen"
 		sprite_index = spr_player0_nopick_frozen;
 		image_index = 0;}}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6F2D2C2A
+/// @DnDArgument : "var" "death"
+/// @DnDArgument : "value" ""Burned""
+if(death == "Burned"){	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 458F70FD
+	/// @DnDParent : 6F2D2C2A
+	/// @DnDArgument : "script" "scr_death"
+	/// @DnDSaveInfo : "script" "scr_death"
+	script_execute(scr_death);}

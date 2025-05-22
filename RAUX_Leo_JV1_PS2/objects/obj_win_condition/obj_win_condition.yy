@@ -34,6 +34,7 @@
         "\"None\"",
         "\"Treasure\"",
       ],"multiselect":false,"name":"treasure","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"deathtime","filters":[],"listItems":[],"multiselect":false,"name":"deathtime","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
