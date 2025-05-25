@@ -62,3 +62,23 @@ var l198D3234_0 = false;l198D3234_0 = instance_exists(obj_felixfreeze);if(l198
 		/// @DnDArgument : "gain" "0.3"
 		/// @DnDSaveInfo : "soundid" "mus_stage_toughenemies"
 		audio_play_sound(mus_stage_toughenemies, 0, 1, 0.3, undefined, 1.0);}}
+
+/// @DnDAction : YoYo Games.Common.Else
+/// @DnDVersion : 1
+/// @DnDHash : 1CE5829A
+else{	/// @DnDAction : YoYo Games.Audio.If_Audio_Playing
+	/// @DnDVersion : 1
+	/// @DnDHash : 76FEEB1C
+	/// @DnDParent : 1CE5829A
+	/// @DnDArgument : "soundid" "mus_stage"
+	/// @DnDArgument : "not" "1"
+	/// @DnDSaveInfo : "soundid" "mus_stage"
+	var l76FEEB1C_0 = mus_stage;if (!audio_is_playing(l76FEEB1C_0)){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 4A2208D6
+		/// @DnDParent : 76FEEB1C
+		/// @DnDArgument : "soundid" "mus_stage"
+		/// @DnDArgument : "loop" "1"
+		/// @DnDArgument : "gain" "0.3"
+		/// @DnDSaveInfo : "soundid" "mus_stage"
+		audio_play_sound(mus_stage, 0, 1, 0.3, undefined, 1.0);}}
