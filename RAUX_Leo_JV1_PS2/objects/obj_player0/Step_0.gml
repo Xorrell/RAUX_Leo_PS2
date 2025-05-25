@@ -68,6 +68,7 @@ if(state == "Idle"){	/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDHash : 6C4DB435
 /// @DnDInput : 3
 /// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "target" ""
 /// @DnDArgument : "object" "obj_col_ground"
@@ -77,7 +78,7 @@ if(state == "Idle"){	/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDSaveInfo : "object" "obj_col_ground"
 /// @DnDSaveInfo : "object_1" "obj_col_ground_bars"
 /// @DnDSaveInfo : "object_2" "obj_felixfreeze"
-var l6C4DB435_0 = instance_place(x + 0, y + 0, [obj_col_ground, obj_col_ground_bars, obj_felixfreeze]);if (!(l6C4DB435_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
+var l6C4DB435_0 = instance_place(x + 0, y + 1, [obj_col_ground, obj_col_ground_bars, obj_felixfreeze]);if (!(l6C4DB435_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 04E4CBA9
 	/// @DnDParent : 6C4DB435
@@ -96,11 +97,12 @@ var l6C4DB435_0 = instance_place(x + 0, y + 0, [obj_col_ground, obj_col_ground_b
 /// @DnDVersion : 1.1
 /// @DnDHash : 1C8C4A38
 /// @DnDArgument : "x_relative" "1"
+/// @DnDArgument : "y" "1"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "object" "obj_colorblock0"
 /// @DnDArgument : "not" "1"
 /// @DnDSaveInfo : "object" "obj_colorblock0"
-var l1C8C4A38_0 = instance_place(x + 0, y + 0, [obj_colorblock0]);if (!(l1C8C4A38_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
+var l1C8C4A38_0 = instance_place(x + 0, y + 1, [obj_colorblock0]);if (!(l1C8C4A38_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 335936D4
 	/// @DnDParent : 1C8C4A38
@@ -259,8 +261,8 @@ if(state == "Falling"){	/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2FC1C8C4
 /// @DnDArgument : "var" "state"
-/// @DnDArgument : "value" ""Walking""
-if(state == "Walking"){	/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDArgument : "value" ""Walk""
+if(state == "Walk"){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 7B904FE3
 	/// @DnDParent : 2FC1C8C4

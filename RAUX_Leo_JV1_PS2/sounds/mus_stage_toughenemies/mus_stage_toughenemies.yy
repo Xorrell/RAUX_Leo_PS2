@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"mus_stage_toughenemies",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":142.46227,
+  "name":"mus_stage_toughenemies",
+  "parent":{
+    "name":"Levels",
+    "path":"folders/Music/Levels.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"mus_stage_toughenemies.ogg",
+  "type":0,
+  "volume":1.0,
+}
