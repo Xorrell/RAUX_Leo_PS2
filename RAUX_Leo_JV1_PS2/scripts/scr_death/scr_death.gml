@@ -221,4 +221,63 @@ function scr_death() {	/// @DnDAction : YoYo Games.Common.If_Variable
 			with(obj_player0) {
 			alarm_set(11, 60);
 			
+			}}}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 62C6D295
+	/// @DnDParent : 05B1F038
+	/// @DnDArgument : "var" "obj_player0.frozen"
+	/// @DnDArgument : "value" "true"
+	if(obj_player0.frozen == true){	/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 47365999
+		/// @DnDParent : 62C6D295
+		/// @DnDArgument : "var" "obj_win_condition.deathtime"
+		/// @DnDArgument : "value" "false"
+		if(obj_win_condition.deathtime == false){	/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 62EFA1F2
+			/// @DnDInput : 2
+			/// @DnDParent : 47365999
+			/// @DnDArgument : "expr" "true"
+			/// @DnDArgument : "expr_1" "false"
+			/// @DnDArgument : "var" "obj_win_condition.deathtime"
+			/// @DnDArgument : "var_1" "obj_player0.carry_treasure"
+			obj_win_condition.deathtime = true;
+			obj_player0.carry_treasure = false;
+		
+			/// @DnDAction : YoYo Games.Loops.Repeat
+			/// @DnDVersion : 1
+			/// @DnDHash : 0534E69A
+			/// @DnDParent : 47365999
+			/// @DnDArgument : "times" "10"
+			repeat(10){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+				/// @DnDVersion : 1
+				/// @DnDHash : 03FE795C
+				/// @DnDParent : 0534E69A
+				/// @DnDArgument : "xpos_relative" "1"
+				/// @DnDArgument : "ypos_relative" "1"
+				/// @DnDArgument : "objectid" "obj_par_lava"
+				/// @DnDArgument : "layer" ""GUI""
+				/// @DnDSaveInfo : "objectid" "obj_par_lava"
+				instance_create_layer(x + 0, y + 0, "GUI", obj_par_lava);}
+		
+			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+			/// @DnDVersion : 1
+			/// @DnDHash : 1B4FA806
+			/// @DnDParent : 47365999
+			/// @DnDArgument : "msg" ""deathtime""
+			show_debug_message(string("deathtime"));
+		
+			/// @DnDAction : YoYo Games.Instances.Set_Alarm
+			/// @DnDVersion : 1
+			/// @DnDHash : 5118CBA6
+			/// @DnDApplyTo : {obj_player0}
+			/// @DnDParent : 47365999
+			/// @DnDArgument : "steps" "60"
+			/// @DnDArgument : "alarm" "11"
+			with(obj_player0) {
+			alarm_set(11, 60);
+			
 			}}}}

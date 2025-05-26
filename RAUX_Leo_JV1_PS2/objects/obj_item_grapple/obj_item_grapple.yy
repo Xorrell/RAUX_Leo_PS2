@@ -11,7 +11,10 @@
     "name":"Items",
     "path":"folders/Objects/Items.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_prnt_starspawner",
+    "path":"objects/obj_prnt_starspawner/obj_prnt_starspawner.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
