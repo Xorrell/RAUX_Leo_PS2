@@ -23,7 +23,7 @@
   ],
   "name":"spr_target",
   "nineSlice":null,
-  "origin":7,
+  "origin":6,
   "parent":{
     "name":"Obstacles",
     "path":"folders/Sprites/Obstacles.yy",
@@ -77,7 +77,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":8,
+    "xorigin":0,
     "yorigin":8,
   },
   "swatchColours":null,

@@ -13,9 +13,9 @@ if(obj_player_switch.controlled_p == true){	/// @DnDAction : YoYo Games.Common
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 53AF1F15
 		/// @DnDInput : 3
-		/// @DnDDisabled : 1
 		/// @DnDParent : 5DC67894
 		/// @DnDArgument : "x_relative" "1"
+		/// @DnDArgument : "y" "8"
 		/// @DnDArgument : "y_relative" "1"
 		/// @DnDArgument : "target" ""
 		/// @DnDArgument : "object" "obj_col_ground"
@@ -24,22 +24,29 @@ if(obj_player_switch.controlled_p == true){	/// @DnDAction : YoYo Games.Common
 		/// @DnDSaveInfo : "object" "obj_col_ground"
 		/// @DnDSaveInfo : "object_1" "obj_col_ground_bars"
 		/// @DnDSaveInfo : "object_2" "obj_felixfreeze"
-		/// @DnDAction : YoYo Games.Common.Execute_Script
-		/// @DnDVersion : 1.1
-		/// @DnDHash : 612CB0DF
-		/// @DnDParent : 53AF1F15
-		/// @DnDArgument : "script" "scr_players_jump"
-		/// @DnDSaveInfo : "script" "scr_players_jump"
-		script_execute(scr_players_jump);
+		var l53AF1F15_0 = instance_place(x + 0, y + 8, [obj_col_ground, obj_col_ground_bars, obj_felixfreeze]);if ((l53AF1F15_0 > 0)){	/// @DnDAction : YoYo Games.Common.Execute_Script
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 612CB0DF
+			/// @DnDParent : 53AF1F15
+			/// @DnDArgument : "script" "scr_players_jump"
+			/// @DnDSaveInfo : "script" "scr_players_jump"
+			script_execute(scr_players_jump);
 		
-		/// @DnDAction : YoYo Games.Audio.Play_Audio
-		/// @DnDVersion : 1.1
-		/// @DnDHash : 57C0C5CE
-		/// @DnDParent : 53AF1F15
-		/// @DnDArgument : "soundid" "player0_jump"
-		/// @DnDArgument : "gain" "0.5"
-		/// @DnDSaveInfo : "soundid" "player0_jump"
-		audio_play_sound(player0_jump, 0, 0, 0.5, undefined, 1.0);
+			/// @DnDAction : YoYo Games.Audio.Play_Audio
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 57C0C5CE
+			/// @DnDParent : 53AF1F15
+			/// @DnDArgument : "soundid" "player0_jump"
+			/// @DnDArgument : "gain" "0.2"
+			/// @DnDSaveInfo : "soundid" "player0_jump"
+			audio_play_sound(player0_jump, 0, 0, 0.2, undefined, 1.0);
+		
+			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+			/// @DnDVersion : 1
+			/// @DnDHash : 1ABC2292
+			/// @DnDParent : 53AF1F15
+			/// @DnDArgument : "msg" " "jump""
+			show_debug_message(string( "jump"));}
 	
 		/// @DnDAction : YoYo Games.Collisions.If_Object_At
 		/// @DnDVersion : 1.1
