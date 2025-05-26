@@ -71,6 +71,7 @@
         "\"None\"",
         "\"Burned\"",
         "\"Instant\"",
+        "\"SMB\"",
       ],"multiselect":false,"name":"death","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"None\"","varType":6,},
     {"$GMObjectProperty":"v1","%Name":"carry_treasure","filters":[],"listItems":[],"multiselect":false,"name":"carry_treasure","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
     {"$GMObjectProperty":"v1","%Name":"frozen","filters":[],"listItems":[],"multiselect":false,"name":"frozen","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"False","varType":3,},
