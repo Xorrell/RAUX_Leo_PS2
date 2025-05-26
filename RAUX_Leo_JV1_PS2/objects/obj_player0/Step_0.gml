@@ -737,9 +737,16 @@ if(death == "Burned"){	/// @DnDAction : YoYo Games.Common.Execute_Script
 	/// @DnDSaveInfo : "script" "scr_death"
 	script_execute(scr_death);}
 
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 5F0E39FE
-/// @DnDArgument : "expr" ""Idle""
+/// @DnDHash : 10BFD577
 /// @DnDArgument : "var" "state"
-state = "Idle";
+/// @DnDArgument : "not" "1"
+/// @DnDArgument : "value" ""Climb""
+if(!(state == "Climb")){	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 00D52550
+	/// @DnDParent : 10BFD577
+	/// @DnDArgument : "expr" ""Idle""
+	/// @DnDArgument : "var" "state"
+	state = "Idle";}

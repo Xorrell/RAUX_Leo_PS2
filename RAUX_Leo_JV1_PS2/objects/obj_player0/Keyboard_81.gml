@@ -11,21 +11,6 @@ if(cutscene == false){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDArgument : "value" "true"
 	if(obj_player_switch.controlled_p == true){	/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
-		/// @DnDHash : 0573B76A
-		/// @DnDParent : 736A0CE4
-		/// @DnDArgument : "var" "state"
-		/// @DnDArgument : "not" "1"
-		/// @DnDArgument : "value" ""Climb""
-		if(!(state == "Climb")){	/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 274C9B3C
-			/// @DnDParent : 0573B76A
-			/// @DnDArgument : "expr" ""Walking""
-			/// @DnDArgument : "var" "state"
-			state = "Walking";}
-	
-		/// @DnDAction : YoYo Games.Common.If_Variable
-		/// @DnDVersion : 1
 		/// @DnDHash : 75C8BA31
 		/// @DnDParent : 736A0CE4
 		/// @DnDArgument : "var" "hor_walk"

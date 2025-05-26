@@ -121,4 +121,22 @@ if(obj_player0.inventory == "GrappleStuck"){	/// @DnDAction : YoYo Games.Drawi
 	/// @DnDArgument : "sprite" "spr_GUI_grapple_no"
 	/// @DnDArgument : "frame" "3"
 	/// @DnDSaveInfo : "sprite" "spr_GUI_grapple_no"
-	draw_sprite_ext(spr_GUI_grapple_no, 3, 216, 216, 4, 4, 0, $FFFFFF & $ffffff, 1);}
+	draw_sprite_ext(spr_GUI_grapple_no, 3, 216, 216, 4, 4, 0, $FFFFFF & $ffffff, 1);
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 5EA60871
+	/// @DnDParent : 2D6CFE0C
+	/// @DnDArgument : "var" "obj_player0.inventory_stats"
+	/// @DnDArgument : "value" ""Pickaxe""
+	if(obj_player0.inventory_stats == "Pickaxe"){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 409D503E
+		/// @DnDParent : 5EA60871
+		/// @DnDArgument : "x" "216"
+		/// @DnDArgument : "y" "216"
+		/// @DnDArgument : "xscale" "4"
+		/// @DnDArgument : "yscale" "4"
+		/// @DnDArgument : "sprite" "spr_GUI_pickaxe_no"
+		/// @DnDSaveInfo : "sprite" "spr_GUI_pickaxe_no"
+		draw_sprite_ext(spr_GUI_pickaxe_no, 0, 216, 216, 4, 4, 0, $FFFFFF & $ffffff, 1);}}
