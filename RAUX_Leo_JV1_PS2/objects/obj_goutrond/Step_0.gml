@@ -116,17 +116,26 @@ if(obj_player0.y == self.y){	/// @DnDAction : YoYo Games.Instances.Create_Inst
 	/// @DnDSaveInfo : "objectid" "obj_goutrond_fall"
 	instance_create_layer(0, 0, "Entities", obj_goutrond_fall);
 
-	/// @DnDAction : YoYo Games.Instances.Change_Instance
-	/// @DnDVersion : 1
-	/// @DnDHash : 0D572323
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 2DC225EF
 	/// @DnDParent : 718B706C
-	/// @DnDArgument : "objind" "obj_goutrond_dropped"
-	/// @DnDSaveInfo : "objind" "obj_goutrond_dropped"
-	instance_change(obj_goutrond_dropped, true);
+	/// @DnDArgument : "soundid" "goutrond_fall"
+	/// @DnDArgument : "gain" "0.2"
+	/// @DnDSaveInfo : "soundid" "goutrond_fall"
+	audio_play_sound(goutrond_fall, 0, 0, 0.2, undefined, 1.0);
 
 	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 	/// @DnDVersion : 1
 	/// @DnDHash : 6A79406A
 	/// @DnDParent : 718B706C
 	/// @DnDArgument : "msg" ""drop""
-	show_debug_message(string("drop"));}
+	show_debug_message(string("drop"));
+
+	/// @DnDAction : YoYo Games.Instances.Change_Instance
+	/// @DnDVersion : 1
+	/// @DnDHash : 0D572323
+	/// @DnDParent : 718B706C
+	/// @DnDArgument : "objind" "obj_goutrond_dropped"
+	/// @DnDSaveInfo : "objind" "obj_goutrond_dropped"
+	instance_change(obj_goutrond_dropped, true);}

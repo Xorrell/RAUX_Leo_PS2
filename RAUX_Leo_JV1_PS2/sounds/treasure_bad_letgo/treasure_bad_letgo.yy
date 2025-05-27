@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"treasure_bad_letgo",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":0.6051701,
+  "name":"treasure_bad_letgo",
+  "parent":{
+    "name":"Items",
+    "path":"folders/Sounds/Items.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"treasure_bad_letgo.wav",
+  "type":0,
+  "volume":1.0,
+}

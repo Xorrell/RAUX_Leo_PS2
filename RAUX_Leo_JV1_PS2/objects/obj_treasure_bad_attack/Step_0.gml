@@ -4,6 +4,12 @@
 /// @DnDArgument : "alpha" "attackcharge/100"
 image_alpha = attackcharge/100;
 
+/// @DnDAction : YoYo Games.Audio.Audo_Set_Master_Volume
+/// @DnDVersion : 1
+/// @DnDHash : 73132B81
+/// @DnDArgument : "volume" "1 - ((attackcharge/100) / 2)"
+audio_set_master_gain(0, 1 - ((attackcharge/100) / 2));
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 11ABA7AA
@@ -43,7 +49,13 @@ y = obj_player0.y;
 /// @DnDArgument : "var" "attackcharge"
 /// @DnDArgument : "op" "4"
 /// @DnDArgument : "value" "100"
-if(attackcharge >= 100){	/// @DnDAction : YoYo Games.Common.Variable
+if(attackcharge >= 100){	/// @DnDAction : YoYo Games.Audio.Audo_Set_Master_Volume
+	/// @DnDVersion : 1
+	/// @DnDHash : 4CE0968A
+	/// @DnDParent : 3CD0D05A
+	audio_set_master_gain(0, 1);
+
+	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 07241B4D
 	/// @DnDParent : 3CD0D05A
