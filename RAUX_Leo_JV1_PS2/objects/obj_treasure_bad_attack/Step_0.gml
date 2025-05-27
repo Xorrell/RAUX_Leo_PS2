@@ -1,8 +1,8 @@
 /// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
 /// @DnDVersion : 1
 /// @DnDHash : 4256591B
-/// @DnDArgument : "alpha" "attackcharge/100"
-image_alpha = attackcharge/100;
+/// @DnDArgument : "alpha" "attackcharge/200"
+image_alpha = attackcharge/200;
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

@@ -10,10 +10,11 @@ if(obj_win_condition.has_treasure == 0){	/// @DnDAction : YoYo Games.Drawing.D
 	/// @DnDArgument : "y" "850"
 	/// @DnDArgument : "xscale" "4"
 	/// @DnDArgument : "yscale" "4"
+	/// @DnDArgument : "alpha" "0"
 	/// @DnDArgument : "sprite" "spr_GUI_conditionbg"
 	/// @DnDArgument : "frame" "3"
 	/// @DnDSaveInfo : "sprite" "spr_GUI_conditionbg"
-	draw_sprite_ext(spr_GUI_conditionbg, 3, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);}
+	draw_sprite_ext(spr_GUI_conditionbg, 3, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 0);}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

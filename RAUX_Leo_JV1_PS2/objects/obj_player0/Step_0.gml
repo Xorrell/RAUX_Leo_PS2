@@ -750,3 +750,15 @@ if(!(state == "Climb")){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "expr" ""Idle""
 	/// @DnDArgument : "var" "state"
 	state = "Idle";}
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 25EAA865
+/// @DnDArgument : "var" "view"
+view = 0;
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 619357C3
+/// @DnDDisabled : 1
+/// @DnDArgument : "var" "view_camera[0]"

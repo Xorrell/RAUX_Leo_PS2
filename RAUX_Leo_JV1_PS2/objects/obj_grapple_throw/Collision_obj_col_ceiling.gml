@@ -15,6 +15,10 @@ instance_destroy();
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 033BA7C7
+/// @DnDInput : 2
 /// @DnDArgument : "expr" ""Grapple""
+/// @DnDArgument : "expr_1" ""Grapple""
 /// @DnDArgument : "var" "obj_player0.inventory"
+/// @DnDArgument : "var_1" "obj_player0.inventory_stats"
 obj_player0.inventory = "Grapple";
+obj_player0.inventory_stats = "Grapple";

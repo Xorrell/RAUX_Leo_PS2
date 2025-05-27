@@ -108,9 +108,9 @@ if(obj_player0.inventory == "Grapple"){	/// @DnDAction : YoYo Games.Drawing.Dr
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 2D6CFE0C
-/// @DnDArgument : "var" "obj_player0.inventory"
+/// @DnDArgument : "var" "obj_player0.inventory_stats"
 /// @DnDArgument : "value" ""GrappleStuck""
-if(obj_player0.inventory == "GrappleStuck"){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+if(obj_player0.inventory_stats == "GrappleStuck"){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 	/// @DnDVersion : 1
 	/// @DnDHash : 512DDBF1
 	/// @DnDParent : 2D6CFE0C
@@ -125,14 +125,14 @@ if(obj_player0.inventory == "GrappleStuck"){	/// @DnDAction : YoYo Games.Drawi
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 5EA60871
+	/// @DnDHash : 0D850A23
 	/// @DnDParent : 2D6CFE0C
-	/// @DnDArgument : "var" "obj_player0.inventory_stats"
+	/// @DnDArgument : "var" "obj_player0.inventory"
 	/// @DnDArgument : "value" ""Pickaxe""
-	if(obj_player0.inventory_stats == "Pickaxe"){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+	if(obj_player0.inventory == "Pickaxe"){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
 		/// @DnDVersion : 1
-		/// @DnDHash : 409D503E
-		/// @DnDParent : 5EA60871
+		/// @DnDHash : 7BD5636E
+		/// @DnDParent : 0D850A23
 		/// @DnDArgument : "x" "216"
 		/// @DnDArgument : "y" "216"
 		/// @DnDArgument : "xscale" "4"

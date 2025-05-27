@@ -63,6 +63,19 @@ if(carried == true){	/// @DnDAction : YoYo Games.Common.Variable
 		/// @DnDSaveInfo : "objectid" "obj_plusone"
 		instance_create_layer(x + 0, y + 0 - 16, "GUI", obj_plusone);}
 
+	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
+	/// @DnDVersion : 1
+	/// @DnDHash : 487EDA27
+	/// @DnDParent : 0ABF4E60
+	/// @DnDArgument : "obj" "obj_treasure_bad_attack"
+	/// @DnDSaveInfo : "obj" "obj_treasure_bad_attack"
+	var l487EDA27_0 = false;l487EDA27_0 = instance_exists(obj_treasure_bad_attack);if(l487EDA27_0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+		/// @DnDVersion : 1
+		/// @DnDHash : 40F89E49
+		/// @DnDApplyTo : {obj_treasure_bad_attack}
+		/// @DnDParent : 487EDA27
+		with(obj_treasure_bad_attack) instance_destroy();}
+
 	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 76136B68

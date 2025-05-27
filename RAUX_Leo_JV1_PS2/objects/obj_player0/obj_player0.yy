@@ -58,6 +58,7 @@
         "\"None\"",
         "\"Pickaxe\"",
         "\"Grapple\"",
+        "\"GrappleStuck\"",
       ],"multiselect":false,"name":"inventory_stats","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"None\"","varType":6,},
     {"$GMObjectProperty":"v1","%Name":"state","filters":[],"listItems":[
         "\"Idle\"",

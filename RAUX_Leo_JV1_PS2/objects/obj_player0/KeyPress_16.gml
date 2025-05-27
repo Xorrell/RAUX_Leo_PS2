@@ -87,10 +87,14 @@ if(obj_player_switch.controlled_p == true){	/// @DnDAction : YoYo Games.Common
 		if(inventory == "Grapple"){	/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 28808CFA
+			/// @DnDInput : 2
 			/// @DnDParent : 310B07CD
 			/// @DnDArgument : "expr" ""GrappleStuck""
+			/// @DnDArgument : "expr_1" ""GrappleStuck""
 			/// @DnDArgument : "var" "inventory"
+			/// @DnDArgument : "var_1" "inventory_stats"
 			inventory = "GrappleStuck";
+			inventory_stats = "GrappleStuck";
 		
 			/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1
