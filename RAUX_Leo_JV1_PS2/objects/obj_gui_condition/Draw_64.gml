@@ -88,15 +88,36 @@ if(obj_win_condition.has_treasure - obj_win_condition.valid_treasure == 3){	//
 /// @DnDVersion : 1
 /// @DnDHash : 0266C319
 /// @DnDArgument : "var" "obj_win_condition.has_treasure - obj_win_condition.valid_treasure"
-if(obj_win_condition.has_treasure - obj_win_condition.valid_treasure == 0){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+if(obj_win_condition.has_treasure - obj_win_condition.valid_treasure == 0){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
-	/// @DnDHash : 4F65ABF5
+	/// @DnDHash : 5594FC58
 	/// @DnDParent : 0266C319
-	/// @DnDArgument : "x" "1500"
-	/// @DnDArgument : "y" "850"
-	/// @DnDArgument : "xscale" "4"
-	/// @DnDArgument : "yscale" "4"
-	/// @DnDArgument : "sprite" "spr_GUI_condition_treasure"
-	/// @DnDArgument : "frame" "4"
-	/// @DnDSaveInfo : "sprite" "spr_GUI_condition_treasure"
-	draw_sprite_ext(spr_GUI_condition_treasure, 4, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);}
+	/// @DnDArgument : "var" "obj_win_condition.has_treasure"
+	if(obj_win_condition.has_treasure == 0){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 6E577807
+		/// @DnDParent : 5594FC58
+		/// @DnDArgument : "x" "1500"
+		/// @DnDArgument : "y" "850"
+		/// @DnDArgument : "xscale" "4"
+		/// @DnDArgument : "yscale" "4"
+		/// @DnDArgument : "sprite" "spr_gui_conditionbg_none"
+		/// @DnDSaveInfo : "sprite" "spr_gui_conditionbg_none"
+		draw_sprite_ext(spr_gui_conditionbg_none, 0, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 5AC6A365
+	/// @DnDParent : 0266C319
+	else{	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 4F65ABF5
+		/// @DnDParent : 5AC6A365
+		/// @DnDArgument : "x" "1500"
+		/// @DnDArgument : "y" "850"
+		/// @DnDArgument : "xscale" "4"
+		/// @DnDArgument : "yscale" "4"
+		/// @DnDArgument : "sprite" "spr_GUI_condition_treasure"
+		/// @DnDArgument : "frame" "4"
+		/// @DnDSaveInfo : "sprite" "spr_GUI_condition_treasure"
+		draw_sprite_ext(spr_GUI_condition_treasure, 4, 1500, 850, 4, 4, 0, $FFFFFF & $ffffff, 1);}}

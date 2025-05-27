@@ -47,13 +47,6 @@ if(dir_switch == 10){	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 			/// @DnDArgument : "var" "dir_switch"
 			dir_switch = 0;
 		
-			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-			/// @DnDVersion : 1
-			/// @DnDHash : 04081D71
-			/// @DnDParent : 2A5EBED2
-			/// @DnDArgument : "msg" ""negative""
-			show_debug_message(string("negative"));
-		
 			/// @DnDAction : YoYo Games.Common.Exit_Event
 			/// @DnDVersion : 1
 			/// @DnDHash : 4DCF24F8
@@ -80,13 +73,6 @@ if(dir_switch == 10){	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 			/// @DnDParent : 5527B1A2
 			/// @DnDArgument : "var" "dir_switch"
 			dir_switch = 0;
-		
-			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-			/// @DnDVersion : 1
-			/// @DnDHash : 77E931BA
-			/// @DnDParent : 5527B1A2
-			/// @DnDArgument : "msg" ""pos""
-			show_debug_message(string("pos"));
 		
 			/// @DnDAction : YoYo Games.Common.Exit_Event
 			/// @DnDVersion : 1

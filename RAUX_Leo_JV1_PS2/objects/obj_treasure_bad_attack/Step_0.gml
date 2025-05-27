@@ -63,6 +63,16 @@ if(attackcharge >= 100){	/// @DnDAction : YoYo Games.Audio.Audo_Set_Master_Vol
 	/// @DnDArgument : "var" "obj_player0.death"
 	obj_player0.death = "SMB";
 
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 3FB2B616
+	/// @DnDParent : 3CD0D05A
+	/// @DnDArgument : "soundid" "treasure_bad_kill"
+	/// @DnDArgument : "gain" "0.3"
+	/// @DnDArgument : "pitch" "0.4"
+	/// @DnDSaveInfo : "soundid" "treasure_bad_kill"
+	audio_play_sound(treasure_bad_kill, 0, 0, 0.3, undefined, 0.4);
+
 	/// @DnDAction : YoYo Games.Common.Execute_Script
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 5F0355C9

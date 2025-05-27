@@ -1,3 +1,12 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1.1
+/// @DnDHash : 3CEFEEA0
+/// @DnDArgument : "soundid" "pickattack"
+/// @DnDArgument : "gain" "0.3"
+/// @DnDArgument : "pitch" "1"
+/// @DnDSaveInfo : "soundid" "pickattack"
+audio_play_sound(pickattack, 0, 0, 0.3, undefined, 1);
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 686D613F
