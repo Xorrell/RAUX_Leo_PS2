@@ -8,3 +8,9 @@
 /// @DnDArgument : "var_1" "y"
 x = obj_player0.x;
 y = obj_player0.y - 8;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 4BF25D2B
+/// @DnDArgument : "var" "obj_player0.hor_walk"
+obj_player0.hor_walk = 0;

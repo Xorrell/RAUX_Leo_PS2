@@ -22,9 +22,9 @@ if(carried == true){	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 		/// @DnDArgument : "xpos_relative" "1"
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "obj_treasure_bad_attack"
-		/// @DnDArgument : "layer" ""GUI""
+		/// @DnDArgument : "layer" ""Curse""
 		/// @DnDSaveInfo : "objectid" "obj_treasure_bad_attack"
-		instance_create_layer(x + 0, y + 0, "GUI", obj_treasure_bad_attack);}}
+		instance_create_layer(x + 0, y + 0, "Curse", obj_treasure_bad_attack);}}
 
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1

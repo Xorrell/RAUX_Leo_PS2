@@ -9,3 +9,8 @@ image_alpha = 0;
 /// @DnDHash : 445A2B06
 /// @DnDArgument : "var" "attackcharge"
 attackcharge = 0;
+
+/// @DnDAction : YoYo Games.Instances.Sprite_Scale
+/// @DnDVersion : 1
+/// @DnDHash : 20683623
+image_xscale = 1;image_yscale = 1;
