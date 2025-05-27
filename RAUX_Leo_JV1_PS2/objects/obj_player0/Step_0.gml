@@ -432,10 +432,11 @@ if(state == "Climb"){	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1
 	/// @DnDHash : 2F23EF18
 	/// @DnDParent : 78E51D19
-	/// @DnDArgument : "spriteind" "deb_player0_climb"
-	/// @DnDSaveInfo : "spriteind" "deb_player0_climb"
-	sprite_index = deb_player0_climb;
-	image_index = 0;
+	/// @DnDArgument : "imageind_relative" "1"
+	/// @DnDArgument : "spriteind" "spr_player0_climb"
+	/// @DnDSaveInfo : "spriteind" "spr_player0_climb"
+	sprite_index = spr_player0_climb;
+	image_index += 0;
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -754,8 +755,9 @@ if(!(state == "Climb")){	/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 25EAA865
+/// @DnDDisabled : 1
 /// @DnDArgument : "var" "view"
-view = 0;
+
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

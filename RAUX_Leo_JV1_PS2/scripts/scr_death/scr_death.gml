@@ -260,11 +260,12 @@ function scr_death() {	/// @DnDAction : YoYo Games.Common.If_Variable
 		
 			/// @DnDAction : YoYo Games.Audio.Play_Audio
 			/// @DnDVersion : 1.1
-			/// @DnDHash : 5E8D8407
+			/// @DnDHash : 69F953D8
 			/// @DnDParent : 425A3F86
-			/// @DnDArgument : "soundid" "lava_drawn"
-			/// @DnDSaveInfo : "soundid" "lava_drawn"
-			audio_play_sound(lava_drawn, 0, 0, 1.0, undefined, 1.0);
+			/// @DnDArgument : "soundid" "player0_treasure_bad"
+			/// @DnDArgument : "gain" "0.2"
+			/// @DnDSaveInfo : "soundid" "player0_treasure_bad"
+			audio_play_sound(player0_treasure_bad, 0, 0, 0.2, undefined, 1.0);
 		
 			/// @DnDAction : YoYo Games.Instances.Create_Instance
 			/// @DnDVersion : 1

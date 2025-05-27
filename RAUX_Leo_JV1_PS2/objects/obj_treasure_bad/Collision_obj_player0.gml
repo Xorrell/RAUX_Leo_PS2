@@ -29,13 +29,7 @@ if(carried == true){	/// @DnDAction : YoYo Games.Instances.If_Instance_Exists
 /// @DnDAction : YoYo Games.Common.Else
 /// @DnDVersion : 1
 /// @DnDHash : 33670EDA
-else{	/// @DnDAction : YoYo Games.Audio.Audo_Set_Master_Volume
-	/// @DnDVersion : 1
-	/// @DnDHash : 425CDE04
-	/// @DnDParent : 33670EDA
-	audio_set_master_gain(0, 1);
-
-	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+else{	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 1710FA74
 	/// @DnDApplyTo : {obj_treasure_bad_attack}

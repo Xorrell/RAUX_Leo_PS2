@@ -3,6 +3,11 @@
 /// @DnDHash : 479ECE0B
 event_inherited();
 
+/// @DnDAction : YoYo Games.Audio.Audo_Set_Master_Volume
+/// @DnDVersion : 1
+/// @DnDHash : 7916AECD
+audio_set_master_gain(0, 1);
+
 /// @DnDAction : YoYo Games.Audio.Play_Audio
 /// @DnDVersion : 1.1
 /// @DnDHash : 7AFCDE7B

@@ -17,7 +17,16 @@ var l1C81C437_0 = instance_place(x + 0, y + 0, [obj_player0]);if ((l1C81C437_0 
 		/// @DnDArgument : "soundid" "exit_reached"
 		/// @DnDArgument : "gain" "0.6"
 		/// @DnDSaveInfo : "soundid" "exit_reached"
-		audio_play_sound(exit_reached, 0, 0, 0.6, undefined, 1.0);}
+		audio_play_sound(exit_reached, 0, 0, 0.6, undefined, 1.0);
+	
+		/// @DnDAction : YoYo Games.Instances.Sprite_Image_Alpha
+		/// @DnDVersion : 1
+		/// @DnDHash : 1724BE43
+		/// @DnDApplyTo : {obj_player0}
+		/// @DnDParent : 31BBDBB6
+		/// @DnDArgument : "alpha" "-0.01"
+		/// @DnDArgument : "alpha_relative" "1"
+		with(obj_player0) image_alpha += -0.01;}
 
 	/// @DnDAction : YoYo Games.Common.Else
 	/// @DnDVersion : 1

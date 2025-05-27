@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"deb_player0_climb",
-    "path":"sprites/deb_player0_climb/deb_player0_climb.yy",
+    "name":"spr_player0_smb",
+    "path":"sprites/spr_player0_smb/spr_player0_smb.yy",
   },
   "spriteMaskId":null,
   "visible":true,
