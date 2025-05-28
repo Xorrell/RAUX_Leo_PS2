@@ -10,3 +10,10 @@
 /// @DnDArgument : "var_1" "y"
 x += 36;
 y += 20;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 48FCF01A
+/// @DnDArgument : "steps" "120"
+/// @DnDArgument : "alarm" "11"
+alarm_set(11, 120);

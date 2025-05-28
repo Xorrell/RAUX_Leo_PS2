@@ -1,11 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_bg_black",
+  "%Name":"obj_cloud_big",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_bg_black",
+  "name":"obj_cloud_big",
   "overriddenProperties":[],
   "parent":{
     "name":"BG",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_bg_black",
-    "path":"sprites/spr_bg_black/spr_bg_black.yy",
+    "name":"spr_clouds_big",
+    "path":"sprites/spr_clouds_big/spr_clouds_big.yy",
   },
   "spriteMaskId":null,
   "visible":true,

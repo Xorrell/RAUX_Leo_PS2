@@ -75,9 +75,10 @@
         {"$GMRInstance":"v2","%Name":"inst_1239E482","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1239E482","objectId":{"name":"obj_destructible","path":"objects/obj_destructible/obj_destructible.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":208.0,"y":168.0,},
       ],"layers":[],"name":"Layout_Back","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRTileLayer":"","%Name":"Tiles","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Tiles","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":14,"SerialiseWidth":24,"TileCompressedData":[
-          -50,2,-20,3,-4,2,-20,-2147483648,-4,2,-20,-2147483648,-4,2,-20,-2147483648,-4,2,-4,-2147483648,-4,1,
-          -4,-2147483648,-4,1,-4,-2147483648,-4,2,-20,-2147483648,-4,2,-20,-2147483648,-4,2,-20,-2147483648,-4,
-          2,-20,-2147483648,-4,2,-20,1,-50,2,
+          -50,2,-20,3,-4,2,-4,6,-4,5,-12,6,-4,2,-4,-2147483648,-4,5,-12,-2147483648,-4,2,-4,-2147483648,-2,5,2,
+          4,5,-12,-2147483648,-4,2,-4,-2147483648,-4,1,-4,-2147483648,-4,1,-4,-2147483648,-4,2,-4,-2147483648,
+          -4,6,-12,-2147483648,-4,2,-16,-2147483648,-4,4,-4,2,-16,-2147483648,-4,5,-4,2,-16,-2147483648,-4,5,-4,
+          2,-20,1,-50,2,
         ],"TileDataFormat":1,},"tilesetId":{"name":"TileSet1","path":"tilesets/TileSet1/TileSet1.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRInstanceLayer":"","%Name":"Collisions","depth":600,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v2","%Name":"inst_30889DA1","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_30889DA1","objectId":{"name":"obj_col_wall","path":"objects/obj_col_wall/obj_col_wall.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":2.5,"x":352.0,"y":32.0,},

@@ -13,7 +13,7 @@ var l27EB4A2A_0 = instance_place(x + 0, y + 0, [obj_bgstop]);
 	/// @DnDVersion : 1
 	/// @DnDHash : 7EEDF262
 	/// @DnDParent : 27EB4A2A
-	/// @DnDArgument : "expr" "obj_player0.hor_walk / 8"
+	/// @DnDArgument : "expr" "obj_player0.hor_walk / 6"
 	/// @DnDArgument : "expr_relative" "1"
 	/// @DnDArgument : "var" "x"
-	x += obj_player0.hor_walk / 8;}
+	x += obj_player0.hor_walk / 6;}
