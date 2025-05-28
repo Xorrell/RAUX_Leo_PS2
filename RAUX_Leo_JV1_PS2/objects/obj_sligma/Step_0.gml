@@ -78,6 +78,70 @@ if(dir_switch == 10){	/// @DnDAction : YoYo Games.Collisions.If_Object_At
 			/// @DnDVersion : 1
 			/// @DnDHash : 304121E5
 			/// @DnDParent : 5527B1A2
+			exit;}}
+
+	/// @DnDAction : YoYo Games.Collisions.If_Object_At
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 4AF1F5D7
+	/// @DnDParent : 059210ED
+	/// @DnDArgument : "x_relative" "1"
+	/// @DnDArgument : "y" "8"
+	/// @DnDArgument : "y_relative" "1"
+	/// @DnDArgument : "object" "obj_col_ground"
+	/// @DnDArgument : "not" "1"
+	/// @DnDSaveInfo : "object" "obj_col_ground"
+	var l4AF1F5D7_0 = instance_place(x + 0, y + 8, [obj_col_ground]);if (!(l4AF1F5D7_0 > 0)){	/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 3BCD7F88
+		/// @DnDParent : 4AF1F5D7
+		/// @DnDArgument : "var" "movement"
+		/// @DnDArgument : "value" "0.2"
+		if(movement == 0.2){	/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 5364F11A
+			/// @DnDParent : 3BCD7F88
+			/// @DnDArgument : "expr" "-0.2"
+			/// @DnDArgument : "var" "movement"
+			movement = -0.2;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 6B347D69
+			/// @DnDParent : 3BCD7F88
+			/// @DnDArgument : "var" "dir_switch"
+			dir_switch = 0;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 391FBFE8
+			/// @DnDParent : 3BCD7F88
+			exit;}
+	
+		/// @DnDAction : YoYo Games.Common.If_Variable
+		/// @DnDVersion : 1
+		/// @DnDHash : 7009BF6F
+		/// @DnDParent : 4AF1F5D7
+		/// @DnDArgument : "var" "movement"
+		/// @DnDArgument : "value" "-0.2"
+		if(movement == -0.2){	/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 41FF8C85
+			/// @DnDParent : 7009BF6F
+			/// @DnDArgument : "expr" "0.2"
+			/// @DnDArgument : "var" "movement"
+			movement = 0.2;
+		
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 4D2FB4AF
+			/// @DnDParent : 7009BF6F
+			/// @DnDArgument : "var" "dir_switch"
+			dir_switch = 0;
+		
+			/// @DnDAction : YoYo Games.Common.Exit_Event
+			/// @DnDVersion : 1
+			/// @DnDHash : 548689D2
+			/// @DnDParent : 7009BF6F
 			exit;}}}
 
 /// @DnDAction : YoYo Games.Common.Variable

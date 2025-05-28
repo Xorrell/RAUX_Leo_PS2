@@ -34,9 +34,9 @@ function scr_room_order() {	/// @DnDAction : YoYo Games.Rooms.Get_Current_Room
 		/// @DnDVersion : 1
 		/// @DnDHash : 6FA4B89D
 		/// @DnDParent : 396BF8D0
-		/// @DnDArgument : "room" "_00_prologue"
-		/// @DnDSaveInfo : "room" "_00_prologue"
-		room_goto(_00_prologue);}
+		/// @DnDArgument : "room" "_00a_prologue"
+		/// @DnDSaveInfo : "room" "_00a_prologue"
+		room_goto(_00a_prologue);}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
