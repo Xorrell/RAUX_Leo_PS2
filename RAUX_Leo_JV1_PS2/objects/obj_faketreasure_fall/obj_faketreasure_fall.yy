@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_fakeplayer_fall",
+  "%Name":"obj_faketreasure_fall",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_fakeplayer_fall",
+  "name":"obj_faketreasure_fall",
   "overriddenProperties":[],
   "parent":{
     "name":"FX",
@@ -26,14 +26,14 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"fallspeed","filters":[],"listItems":[],"multiselect":false,"name":"fallspeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.9","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"fallspeed","filters":[],"listItems":[],"multiselect":false,"name":"fallspeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_fakeplayer_fall",
-    "path":"sprites/spr_fakeplayer_fall/spr_fakeplayer_fall.yy",
+    "name":"spr_treasure",
+    "path":"sprites/spr_treasure/spr_treasure.yy",
   },
   "spriteMaskId":null,
   "visible":true,
