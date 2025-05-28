@@ -21,17 +21,46 @@ if(obj_player0.inventory == "None"){	/// @DnDAction : YoYo Games.Drawing.Draw_
 /// @DnDHash : 1C624D79
 /// @DnDArgument : "var" "obj_player0.inventory"
 /// @DnDArgument : "value" ""Pickaxe""
-if(obj_player0.inventory == "Pickaxe"){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+if(obj_player0.inventory == "Pickaxe"){	/// @DnDAction : YoYo Games.Rooms.Get_Current_Room
 	/// @DnDVersion : 1
-	/// @DnDHash : 202D9F67
+	/// @DnDHash : 1B7B83DC
 	/// @DnDParent : 1C624D79
-	/// @DnDArgument : "x" "216"
-	/// @DnDArgument : "y" "216"
-	/// @DnDArgument : "xscale" "4"
-	/// @DnDArgument : "yscale" "4"
-	/// @DnDArgument : "sprite" "spr_GUI_pickaxe"
-	/// @DnDSaveInfo : "sprite" "spr_GUI_pickaxe"
-	draw_sprite_ext(spr_GUI_pickaxe, 0, 216, 216, 4, 4, 0, $FFFFFF & $ffffff, 1);
+	/// @DnDArgument : "var" "currentroom"
+	currentroom = room;
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 7DFC61F9
+	/// @DnDParent : 1C624D79
+	/// @DnDArgument : "var" "currentroom"
+	/// @DnDArgument : "value" "_00a_prologue"
+	if(currentroom == _00a_prologue){	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 4252C154
+		/// @DnDParent : 7DFC61F9
+		/// @DnDArgument : "x" "216"
+		/// @DnDArgument : "y" "216"
+		/// @DnDArgument : "xscale" "4"
+		/// @DnDArgument : "yscale" "4"
+		/// @DnDArgument : "sprite" "spr_GUI_pickaxe_prologue"
+		/// @DnDSaveInfo : "sprite" "spr_GUI_pickaxe_prologue"
+		draw_sprite_ext(spr_GUI_pickaxe_prologue, 0, 216, 216, 4, 4, 0, $FFFFFF & $ffffff, 1);}
+
+	/// @DnDAction : YoYo Games.Common.Else
+	/// @DnDVersion : 1
+	/// @DnDHash : 777B00FA
+	/// @DnDParent : 1C624D79
+	else{	/// @DnDAction : YoYo Games.Drawing.Draw_Sprite_Transformed
+		/// @DnDVersion : 1
+		/// @DnDHash : 202D9F67
+		/// @DnDParent : 777B00FA
+		/// @DnDArgument : "x" "216"
+		/// @DnDArgument : "y" "216"
+		/// @DnDArgument : "xscale" "4"
+		/// @DnDArgument : "yscale" "4"
+		/// @DnDArgument : "sprite" "spr_GUI_pickaxe"
+		/// @DnDSaveInfo : "sprite" "spr_GUI_pickaxe"
+		draw_sprite_ext(spr_GUI_pickaxe, 0, 216, 216, 4, 4, 0, $FFFFFF & $ffffff, 1);}
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1

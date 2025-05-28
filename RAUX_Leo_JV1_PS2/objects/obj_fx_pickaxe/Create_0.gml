@@ -9,9 +9,9 @@ image_xscale = 2;image_yscale = 2;
 /// @DnDVersion : 1
 /// @DnDHash : 4C9255FD
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "obj_player0.x - 100"
-/// @DnDArgument : "expr_1" "obj_player0.y - 32"
+/// @DnDArgument : "expr" "obj_player0.x - 116"
+/// @DnDArgument : "expr_1" "obj_player0.y - 70"
 /// @DnDArgument : "var" "x"
 /// @DnDArgument : "var_1" "y"
-x = obj_player0.x - 100;
-y = obj_player0.y - 32;
+x = obj_player0.x - 116;
+y = obj_player0.y - 70;

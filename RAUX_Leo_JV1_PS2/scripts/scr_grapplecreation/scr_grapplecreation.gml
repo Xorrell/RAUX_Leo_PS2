@@ -51,4 +51,16 @@ function scr_grapplecreation() {	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDArgument : "objectid" "obj_fx_rope"
 	/// @DnDArgument : "layer" ""DEBUG""
 	/// @DnDSaveInfo : "objectid" "obj_fx_rope"
-	instance_create_layer(x + 0, y + 0, "DEBUG", obj_fx_rope);}
+	instance_create_layer(x + 0, y + 0, "DEBUG", obj_fx_rope);
+
+	/// @DnDAction : YoYo Games.Instances.Set_Alarm
+	/// @DnDVersion : 1
+	/// @DnDHash : 576B80AF
+	/// @DnDApplyTo : {obj_fx_grapple}
+	/// @DnDParent : 69190248
+	/// @DnDArgument : "steps" "300"
+	/// @DnDArgument : "alarm" "11"
+	with(obj_fx_grapple) {
+	alarm_set(11, 300);
+	
+	}}

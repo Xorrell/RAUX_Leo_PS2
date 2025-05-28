@@ -2,9 +2,9 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 7F81339B
 /// @DnDArgument : "soundid" "destructible_break"
-/// @DnDArgument : "gain" "0.7"
+/// @DnDArgument : "gain" "0.3"
 /// @DnDSaveInfo : "soundid" "destructible_break"
-audio_play_sound(destructible_break, 0, 0, 0.7, undefined, 1.0);
+audio_play_sound(destructible_break, 0, 0, 0.3, undefined, 1.0);
 
 /// @DnDAction : YoYo Games.Instances.Destroy_Instance
 /// @DnDVersion : 1

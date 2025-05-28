@@ -4,9 +4,9 @@
 /// @DnDArgument : "xpos_relative" "1"
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "obj_shine"
-/// @DnDArgument : "layer" ""GUI""
+/// @DnDArgument : "layer" ""DEBUG""
 /// @DnDSaveInfo : "objectid" "obj_shine"
-instance_create_layer(x + 0, y + 0, "GUI", obj_shine);
+instance_create_layer(x + 0, y + 0, "DEBUG", obj_shine);
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
@@ -14,9 +14,9 @@ instance_create_layer(x + 0, y + 0, "GUI", obj_shine);
 /// @DnDArgument : "xpos_relative" "1"
 /// @DnDArgument : "ypos_relative" "1"
 /// @DnDArgument : "objectid" "obj_fx_grapple"
-/// @DnDArgument : "layer" ""GUI""
+/// @DnDArgument : "layer" ""DEBUG""
 /// @DnDSaveInfo : "objectid" "obj_fx_grapple"
-instance_create_layer(x + 0, y + 0, "GUI", obj_fx_grapple);
+instance_create_layer(x + 0, y + 0, "DEBUG", obj_fx_grapple);
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

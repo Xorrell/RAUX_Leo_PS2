@@ -7,11 +7,11 @@ image_xscale = 2;image_yscale = 2;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 61C34478
+/// @DnDHash : 1725713D
 /// @DnDInput : 2
-/// @DnDArgument : "expr" "800"
-/// @DnDArgument : "expr_1" "500"
+/// @DnDArgument : "expr" "obj_player0.x + 116"
+/// @DnDArgument : "expr_1" "obj_player0.y - 70"
 /// @DnDArgument : "var" "x"
 /// @DnDArgument : "var_1" "y"
-x = 800;
-y = 500;
+x = obj_player0.x + 116;
+y = obj_player0.y - 70;
