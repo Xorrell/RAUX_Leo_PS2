@@ -21,9 +21,9 @@ if(!(currentroom == TitleScreen)){	/// @DnDAction : YoYo Games.Common.If_Varia
 		/// @DnDVersion : 1
 		/// @DnDHash : 134A60B4
 		/// @DnDParent : 04BE6F49
-		/// @DnDArgument : "alpha" "-0.05"
+		/// @DnDArgument : "alpha" "-0.02"
 		/// @DnDArgument : "alpha_relative" "1"
-		image_alpha += -0.05;}}
+		image_alpha += -0.02;}}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1

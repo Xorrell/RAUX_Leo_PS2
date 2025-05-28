@@ -16,8 +16,8 @@ currentroom = room;
 /// @DnDHash : 3932CCAF
 /// @DnDArgument : "var" "currentroom"
 /// @DnDArgument : "not" "1"
-/// @DnDArgument : "value" "_00_prologue"
-if(!(currentroom == _00_prologue)){	/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDArgument : "value" "_00a_prologue"
+if(!(currentroom == _00a_prologue)){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 1FDDD978
 	/// @DnDParent : 3932CCAF
