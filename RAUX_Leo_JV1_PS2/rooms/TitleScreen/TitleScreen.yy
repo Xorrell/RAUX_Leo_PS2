@@ -33,8 +33,8 @@
   ],
   "name":"TitleScreen",
   "parent":{
-    "name":"Rooms",
-    "path":"folders/Rooms.yy",
+    "name":"Misc",
+    "path":"folders/Rooms/Misc.yy",
   },
   "parentRoom":null,
   "physicsSettings":{
