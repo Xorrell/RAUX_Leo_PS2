@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.04931973,
+  "duration":0.0,
   "name":"player0_step0",
   "parent":{
     "name":"Player0",

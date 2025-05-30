@@ -41,6 +41,19 @@ if(currentroom == _00a_prologue){	/// @DnDAction : YoYo Games.Audio.If_Audio_P
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 39FD0801
+/// @DnDArgument : "var" "currentroom"
+/// @DnDArgument : "value" "_00b_prologue"
+if(currentroom == _00b_prologue){	/// @DnDAction : YoYo Games.Audio.Pause_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 36C9626D
+	/// @DnDParent : 39FD0801
+	/// @DnDArgument : "sound" "mus_stage_treasure"
+	/// @DnDSaveInfo : "sound" "mus_stage_treasure"
+	audio_pause_sound(mus_stage_treasure);}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 35EC66F4
 /// @DnDArgument : "var" "currentroom"
 /// @DnDArgument : "value" "_00b_prologue"
@@ -48,18 +61,18 @@ if(currentroom == _00b_prologue){	/// @DnDAction : YoYo Games.Audio.If_Audio_P
 	/// @DnDVersion : 1
 	/// @DnDHash : 09760B8D
 	/// @DnDParent : 35EC66F4
-	/// @DnDArgument : "soundid" "mus_stage_prologue"
+	/// @DnDArgument : "soundid" "mus_stage"
 	/// @DnDArgument : "not" "1"
-	/// @DnDSaveInfo : "soundid" "mus_stage_prologue"
-	var l09760B8D_0 = mus_stage_prologue;if (!audio_is_playing(l09760B8D_0)){	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDSaveInfo : "soundid" "mus_stage"
+	var l09760B8D_0 = mus_stage;if (!audio_is_playing(l09760B8D_0)){	/// @DnDAction : YoYo Games.Audio.Play_Audio
 		/// @DnDVersion : 1.1
 		/// @DnDHash : 0AA2067E
 		/// @DnDParent : 09760B8D
-		/// @DnDArgument : "soundid" "mus_stage_prologue"
+		/// @DnDArgument : "soundid" "mus_stage"
 		/// @DnDArgument : "loop" "1"
 		/// @DnDArgument : "gain" "0.5"
-		/// @DnDSaveInfo : "soundid" "mus_stage_prologue"
-		audio_play_sound(mus_stage_prologue, 0, 1, 0.5, undefined, 1.0);}}
+		/// @DnDSaveInfo : "soundid" "mus_stage"
+		audio_play_sound(mus_stage, 0, 1, 0.5, undefined, 1.0);}}
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
@@ -145,8 +158,8 @@ if(!(currentroom == _00a_prologue)){	/// @DnDAction : YoYo Games.Common.If_Var
 /// @DnDHash : 7212AB88
 /// @DnDArgument : "var" "currentroom"
 /// @DnDArgument : "not" "1"
-/// @DnDArgument : "value" "_00a_prologue"
-if(!(currentroom == _00a_prologue)){	/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDArgument : "value" "_00b_prologue"
+if(!(currentroom == _00b_prologue)){	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 2CA31970
 	/// @DnDParent : 7212AB88
