@@ -15,6 +15,6 @@ if(obj_player_switch.controlled_p == false){	/// @DnDAction : YoYo Games.Insta
 	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 	/// @DnDVersion : 1
 	/// @DnDHash : 7656AE29
+	/// @DnDDisabled : 1
 	/// @DnDParent : 0E709073
-	/// @DnDArgument : "msg" ""p1 lookup""
-	show_debug_message(string("p1 lookup"));}
+	/// @DnDArgument : "msg" ""p1 lookup""}

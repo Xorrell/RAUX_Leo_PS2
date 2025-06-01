@@ -103,13 +103,11 @@
     {"name":"inst_5D3C3EE5","path":"rooms/TEST/TEST.yy",},
     {"name":"inst_141EFDA1","path":"rooms/TEST/TEST.yy",},
     {"name":"inst_3A2977BB","path":"rooms/TEST/TEST.yy",},
-    {"name":"inst_15784461","path":"rooms/TEST/TEST.yy",},
     {"name":"inst_4492AA7C","path":"rooms/TEST/TEST.yy",},
   ],
   "isDnd":false,
   "layers":[
     {"$GMRInstanceLayer":"","%Name":"DEBUG","depth":0,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"$GMRInstance":"v2","%Name":"inst_15784461","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_15784461","objectId":{"name":"obj_camera","path":"objects/obj_camera/obj_camera.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-98.0,"y":109.0,},
         {"$GMRInstance":"v2","%Name":"inst_1B1F492A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_1B1F492A","objectId":{"name":"obj_debtoggle","path":"objects/obj_debtoggle/obj_debtoggle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-64.0,"y":-64.0,},
         {"$GMRInstance":"v2","%Name":"inst_5C54752","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_5C54752","objectId":{"name":"obj_player_switch","path":"objects/obj_player_switch/obj_player_switch.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":-32.0,"y":-64.0,},
         {"$GMRInstance":"v2","%Name":"inst_27DB7796","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_27DB7796","objectId":{"name":"obj_win_condition","path":"objects/obj_win_condition/obj_win_condition.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":-64.0,},

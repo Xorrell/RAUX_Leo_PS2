@@ -7,5 +7,6 @@ event_inherited();
 /// @DnDVersion : 1.1
 /// @DnDHash : 740B02FF
 /// @DnDArgument : "soundid" "ceiling_bump"
+/// @DnDArgument : "gain" "0"
 /// @DnDSaveInfo : "soundid" "ceiling_bump"
-audio_play_sound(ceiling_bump, 0, 0, 1.0, undefined, 1.0);
+audio_play_sound(ceiling_bump, 0, 0, 0, undefined, 1.0);

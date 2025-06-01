@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"scr_exit",
+  "%Name":"scr_player1_exit",
   "isCompatibility":false,
   "isDnD":true,
-  "name":"scr_exit",
+  "name":"scr_player1_exit",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

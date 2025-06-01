@@ -4,6 +4,13 @@
 /// @DnDArgument : "var" "movepos"
 movepos = 0;
 
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 07E53188
+/// @DnDArgument : "expr" "natpos + movepos"
+/// @DnDArgument : "var" "y"
+y = natpos + movepos;
+
 /// @DnDAction : YoYo Games.Loops.Repeat
 /// @DnDVersion : 1
 /// @DnDHash : 5B607719

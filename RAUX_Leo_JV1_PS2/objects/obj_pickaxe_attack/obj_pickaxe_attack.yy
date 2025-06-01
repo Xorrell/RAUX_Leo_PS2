@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"deb_pickaxe_attack",
-    "path":"sprites/deb_pickaxe_attack/deb_pickaxe_attack.yy",
+    "name":"spr_pickaxe_attack",
+    "path":"sprites/spr_pickaxe_attack/spr_pickaxe_attack.yy",
   },
   "spriteMaskId":null,
   "visible":true,

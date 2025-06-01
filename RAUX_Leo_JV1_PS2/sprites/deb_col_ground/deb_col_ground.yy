@@ -2,7 +2,7 @@
   "$GMSprite":"",
   "%Name":"deb_col_ground",
   "bboxMode":2,
-  "bbox_bottom":15,
+  "bbox_bottom":63,
   "bbox_left":0,
   "bbox_right":63,
   "bbox_top":0,

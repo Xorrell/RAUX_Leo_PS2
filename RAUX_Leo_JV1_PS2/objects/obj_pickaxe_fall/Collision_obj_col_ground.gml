@@ -26,8 +26,8 @@ if(times_hit == 0){	/// @DnDAction : YoYo Games.Instances.Create_Instance
 	/// @DnDVersion : 1
 	/// @DnDHash : 783662F2
 	/// @DnDParent : 4BD13384
-	/// @DnDArgument : "steps" "10"
-	alarm_set(0, 10);
+	/// @DnDArgument : "steps" "5"
+	alarm_set(0, 5);
 
 	/// @DnDAction : YoYo Games.Audio.Play_Audio
 	/// @DnDVersion : 1.1
