@@ -10,5 +10,6 @@ var l2C680882_0 = instance_place(x + 0, y + -2, [obj_bars]);if ((l2C680882_0 > 
 	/// @DnDVersion : 1
 	/// @DnDHash : 3CBC4C3B
 	/// @DnDParent : 2C680882
-	/// @DnDArgument : "yscale" "0.5"
-	image_xscale = 1;image_yscale = 0.5;}
+	/// @DnDArgument : "xscale" "0.25"
+	/// @DnDArgument : "yscale" "0.25"
+	image_xscale = 0.25;image_yscale = 0.25;}

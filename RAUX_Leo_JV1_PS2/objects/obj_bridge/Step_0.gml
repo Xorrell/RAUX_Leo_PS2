@@ -47,6 +47,6 @@ if(!(crumble == true)){	/// @DnDAction : YoYo Games.Instances.Set_Alarm
 	/// @DnDVersion : 1
 	/// @DnDHash : 4D49613E
 	/// @DnDParent : 02AD7700
-	/// @DnDArgument : "steps" "240"
+	/// @DnDArgument : "steps" "200"
 	/// @DnDArgument : "alarm" "11"
-	alarm_set(11, 240);}
+	alarm_set(11, 200);}

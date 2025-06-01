@@ -10,7 +10,9 @@
   ],
   "managed":true,
   "name":"obj_prnt_treasure",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_gravity","path":"objects/obj_gravity/obj_gravity.yy",},"propertyId":{"name":"thru_bars","path":"objects/obj_gravity/obj_gravity.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+  ],
   "parent":{
     "name":"Items",
     "path":"folders/Objects/Items.yy",

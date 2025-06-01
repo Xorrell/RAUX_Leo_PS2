@@ -16,13 +16,13 @@ if(obj_button1.open == false){	/// @DnDAction : YoYo Games.Collisions.If_Objec
 		/// @DnDVersion : 1
 		/// @DnDHash : 123494E6
 		/// @DnDParent : 42C85AA8
-		/// @DnDArgument : "xpos" "4"
+		/// @DnDArgument : "xpos" "8"
 		/// @DnDArgument : "xpos_relative" "1"
 		/// @DnDArgument : "ypos_relative" "1"
 		/// @DnDArgument : "objectid" "obj_col_ground"
 		/// @DnDArgument : "layer" ""Collisions""
 		/// @DnDSaveInfo : "objectid" "obj_col_ground"
-		instance_create_layer(x + 4, y + 0, "Collisions", obj_col_ground);}
+		instance_create_layer(x + 8, y + 0, "Collisions", obj_col_ground);}
 
 	/// @DnDAction : YoYo Games.Instances.Set_Sprite
 	/// @DnDVersion : 1

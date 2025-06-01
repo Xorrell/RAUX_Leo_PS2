@@ -31,7 +31,8 @@ var l120A6B20_0 = instance_place(x + 0, y + 0, [obj_colorblock0]);if ((l120A6B2
 	/// @DnDHash : 61D62863
 	/// @DnDParent : 120A6B20
 	/// @DnDArgument : "var" "obj_button0.open"
-	if(obj_button0.open == 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDArgument : "value" "true"
+	if(obj_button0.open == true){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 7B5E77B4
 		/// @DnDParent : 61D62863
@@ -49,7 +50,8 @@ var l4C3ACEB5_0 = instance_place(x + 0, y + 0, [obj_colorblock1]);if ((l4C3ACEB
 	/// @DnDHash : 5D21CDBF
 	/// @DnDParent : 4C3ACEB5
 	/// @DnDArgument : "var" "obj_button1.open"
-	if(obj_button1.open == 0){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
+	/// @DnDArgument : "value" "true"
+	if(obj_button1.open == true){	/// @DnDAction : YoYo Games.Instances.Destroy_Instance
 		/// @DnDVersion : 1
 		/// @DnDHash : 69ECF893
 		/// @DnDParent : 5D21CDBF

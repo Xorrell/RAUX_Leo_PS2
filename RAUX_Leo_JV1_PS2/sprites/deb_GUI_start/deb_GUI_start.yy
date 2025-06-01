@@ -13,8 +13,8 @@
   "For3D":false,
   "frames":[
     {"$GMSpriteFrame":"","%Name":"0595a8b5-ff54-4cb0-86df-67f6deedd722","name":"0595a8b5-ff54-4cb0-86df-67f6deedd722","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"98c25723-5127-4fdc-9a3b-c2dcaab2d5b3","name":"98c25723-5127-4fdc-9a3b-c2dcaab2d5b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f68c43bf-dc66-4f6a-aa43-d100616ed8d4","name":"f68c43bf-dc66-4f6a-aa43-d100616ed8d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"785f4de2-8fbc-4fb4-9020-eae0e95227f6","name":"785f4de2-8fbc-4fb4-9020-eae0e95227f6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"","%Name":"f66ebc97-e4ec-43f7-9ca8-807beb9ecf0d","name":"f66ebc97-e4ec-43f7-9ca8-807beb9ecf0d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
@@ -76,11 +76,11 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"0595a8b5-ff54-4cb0-86df-67f6deedd722","path":"sprites/deb_GUI_start/deb_GUI_start.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"8661ebb0-160e-4b51-98bd-284764043b54","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"98c25723-5127-4fdc-9a3b-c2dcaab2d5b3","path":"sprites/deb_GUI_start/deb_GUI_start.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4a2dbb66-becf-4bb4-a685-4af93f269dcc","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"785f4de2-8fbc-4fb4-9020-eae0e95227f6","path":"sprites/deb_GUI_start/deb_GUI_start.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"a21bce8d-ad3c-45f0-8d0e-00f30222b77c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f68c43bf-dc66-4f6a-aa43-d100616ed8d4","path":"sprites/deb_GUI_start/deb_GUI_start.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"7dd10f47-3595-4872-913c-3703997f0596","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"f66ebc97-e4ec-43f7-9ca8-807beb9ecf0d","path":"sprites/deb_GUI_start/deb_GUI_start.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"795b6d88-003a-4ee5-a1ae-7fcd2b1b20b2","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
