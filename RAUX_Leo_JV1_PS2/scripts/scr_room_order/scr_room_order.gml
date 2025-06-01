@@ -146,6 +146,20 @@ function scr_room_order() {	/// @DnDAction : YoYo Games.Rooms.Get_Current_Room
 		/// @DnDVersion : 1
 		/// @DnDHash : 4E4CCD61
 		/// @DnDParent : 7D03EC94
-		/// @DnDArgument : "room" "_06_goutrond"
-		/// @DnDSaveInfo : "room" "_06_goutrond"
-		room_goto(_06_goutrond);}}
+		/// @DnDArgument : "room" "_xx_epilogue"
+		/// @DnDSaveInfo : "room" "_xx_epilogue"
+		room_goto(_xx_epilogue);}
+
+	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 2C24072A
+	/// @DnDParent : 248DA527
+	/// @DnDArgument : "var" "currentroom"
+	/// @DnDArgument : "value" "_10_finale"
+	if(currentroom == _10_finale){	/// @DnDAction : YoYo Games.Rooms.Go_To_Room
+		/// @DnDVersion : 1
+		/// @DnDHash : 079BDBA4
+		/// @DnDParent : 2C24072A
+		/// @DnDArgument : "room" "_xx_epilogue"
+		/// @DnDSaveInfo : "room" "_xx_epilogue"
+		room_goto(_xx_epilogue);}}
