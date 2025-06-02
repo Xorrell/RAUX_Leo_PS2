@@ -23,6 +23,4 @@ NOM DU PROJET: Vertical Hell
 
 ## Crédits:
 
-- Effects Sonores (Rips): The Sounds Resources; Mario FanGames Galaxy
-  
-- et puis le jeu c'est moi qui l'ai fait d'abord hein
+- Effects Sonores (Rips): The Sounds Resources; Mario FanGames Galaxy; Youtube
