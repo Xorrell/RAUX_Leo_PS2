@@ -18,6 +18,7 @@ NOM DU PROJET: Vertical Hell
 | Entrée | Changer de Perso Joueur | Tous
 | E | Porter/Lâcher un Trésor | Pétunia
 | Shift | Utiliser l'Outil | Pétunia
+| Shift (devant Bouton) | Activer Bouton | Tous
 | Gauche-Droite | Changer d'Outil | Pétunia
 
 ## Crédits:
